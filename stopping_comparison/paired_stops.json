@@ -1,0 +1,219 @@
+{
+  "domain": "fixed",
+  "slot_order": [
+    "U1",
+    "U2",
+    "U3",
+    "C4"
+  ],
+  "development_held_out": {
+    "n": 103,
+    "exact_stop_relative_to": {
+      "two_agree": {
+        "earlier": 12,
+        "same": 50,
+        "later": 41
+      },
+      "three_agree": {
+        "earlier": 50,
+        "same": 53,
+        "later": 0
+      }
+    },
+    "policies": {
+      "exact": {
+        "calls": 292,
+        "matches_four": 103,
+        "answered": 103,
+        "correct": 79,
+        "stops_by_slot": [
+          0,
+          37,
+          46,
+          20
+        ],
+        "disagreements_with_four": 0,
+        "disagreements_by_stop_slot": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "two_agree": {
+        "calls": 256,
+        "matches_four": 100,
+        "answered": 103,
+        "correct": 80,
+        "stops_by_slot": [
+          0,
+          78,
+          0,
+          25
+        ],
+        "disagreements_with_four": 3,
+        "disagreements_by_stop_slot": [
+          0,
+          3,
+          0,
+          0
+        ]
+      },
+      "three_agree": {
+        "calls": 345,
+        "matches_four": 103,
+        "answered": 103,
+        "correct": 79,
+        "stops_by_slot": [
+          0,
+          0,
+          67,
+          36
+        ],
+        "disagreements_with_four": 0,
+        "disagreements_by_stop_slot": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "first_usable": {
+        "calls": 103,
+        "matches_four": 83,
+        "answered": 103,
+        "correct": 79,
+        "stops_by_slot": [
+          103,
+          0,
+          0,
+          0
+        ],
+        "disagreements_with_four": 20,
+        "disagreements_by_stop_slot": [
+          20,
+          0,
+          0,
+          0
+        ]
+      },
+      "first_raw": {
+        "calls": 103,
+        "matches_four": 83,
+        "answered": 103,
+        "correct": 79
+      },
+      "first_clipped": {
+        "calls": 103,
+        "matches_four": 83,
+        "answered": 103,
+        "correct": 79
+      }
+    }
+  },
+  "official_test_all": {
+    "n": 60,
+    "exact_stop_relative_to": {
+      "two_agree": {
+        "earlier": 8,
+        "same": 26,
+        "later": 26
+      },
+      "three_agree": {
+        "earlier": 28,
+        "same": 32,
+        "later": 0
+      }
+    },
+    "policies": {
+      "exact": {
+        "calls": 180,
+        "matches_four": 60,
+        "answered": 59,
+        "correct": 33,
+        "stops_by_slot": [
+          0,
+          13,
+          34,
+          13
+        ],
+        "disagreements_with_four": 0,
+        "disagreements_by_stop_slot": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "two_agree": {
+        "calls": 162,
+        "matches_four": 60,
+        "answered": 59,
+        "correct": 33,
+        "stops_by_slot": [
+          0,
+          39,
+          0,
+          21
+        ],
+        "disagreements_with_four": 0,
+        "disagreements_by_stop_slot": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "three_agree": {
+        "calls": 208,
+        "matches_four": 60,
+        "answered": 59,
+        "correct": 33,
+        "stops_by_slot": [
+          0,
+          0,
+          32,
+          28
+        ],
+        "disagreements_with_four": 0,
+        "disagreements_by_stop_slot": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "first_usable": {
+        "calls": 75,
+        "matches_four": 55,
+        "answered": 59,
+        "correct": 31,
+        "stops_by_slot": [
+          51,
+          4,
+          4,
+          1
+        ],
+        "disagreements_with_four": 5,
+        "disagreements_by_stop_slot": [
+          5,
+          0,
+          0,
+          0
+        ]
+      },
+      "first_raw": {
+        "calls": 60,
+        "matches_four": 41,
+        "answered": 51,
+        "correct": 33
+      },
+      "first_clipped": {
+        "calls": 60,
+        "matches_four": 47,
+        "answered": 51,
+        "correct": 29
+      }
+    }
+  }
+}

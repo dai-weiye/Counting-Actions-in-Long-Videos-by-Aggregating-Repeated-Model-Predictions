@@ -15,6 +15,7 @@ The cohorts are the original 206 MLVU development questions, their 103-question 
 | Policy | Requests |
 | --- | --- |
 | Fixed 1, 2, 3 or 4 | Request that many slots in order. |
+| First usable | Request slots in order until one yields a count or all four have been tried. Use that count, clipped to 1 through 5 in the fixed domain. |
 | Three agree | Stop after slot 3 if all three values are usable and identical. Otherwise request slot 4. |
 | Two agree | Stop after slot 2 if both values are usable and identical. Otherwise request both remaining slots. |
 | Exact | Stop at the first prefix for which every admissible completion yields the same four-slot decision. |
@@ -27,16 +28,31 @@ Two equal usable reports define an empirical heuristic. For example, with option
 
 | Cohort | Policy | Calls | Same four-slot decisions | Correct |
 | --- | --- | ---: | ---: | ---: |
+| Held-out development, 103 | First usable | 103 | 83 | 79 |
 | Held-out development, 103 | Fixed 3 | 309 | 95 | 81 |
 | Held-out development, 103 | Three agree | 345 | 103 | 79 |
 | Held-out development, 103 | Two agree | 256 | 100 | 80 |
 | Held-out development, 103 | Exact | 292 | 103 | 79 |
+| Official DeepSeek test, 60 | First usable | 75 | 55 | 31 |
 | Official DeepSeek test, 60 | Fixed 3 | 180 | 56 | 31 |
 | Official DeepSeek test, 60 | Three agree | 208 | 60 | 33 |
 | Official DeepSeek test, 60 | Two agree | 162 | 60 | 33 |
 | Official DeepSeek test, 60 | Exact | 180 | 60 | 33 |
 
 On the official DeepSeek test, the four-slot procedure returned a count on 59 questions. One question had four unusable reports. The exact rule reproduced both the 59 counts and this unanswered result. On the two Qwen cohorts, a single report reproduced the four-slot decision for every question under either domain. With a single report, the fixed-domain prediction is its value clipped to 1 through 5 and the offered-domain prediction is the report itself.
+
+### Which questions stop earlier?
+
+On held-out development, exact stopping used fewer calls than two-agree on 12 questions, the same number on 50 and more on 41. On the official test, those counts were 8, 26 and 26. Relative to three-agree, exact stopping saved calls on 50 development and 28 test questions and tied on every other question. Two-agree changed three development decisions, all after slot 2, and matched all 60 test decisions. These comparisons use the fixed candidate range.
+
+On the official test, the first usable policy reached its final slot after one, two, three or four calls on 51, 4, 4 and 1 questions, respectively. It answered 59 of 60. Using just the first report answered 51. The raw first report matched 41 four-slot decisions and got 33 questions correct. Clipping the first report to 1 through 5 gave 47 matches and 29 correct. On held-out development, each question had a valid first response. Both single-report rules and first usable answered all 103, matched 83 four-slot decisions and got 79 correct. All denominators include unanswered questions. [Paired results and stopping slots](paired_stops.json)
+
+Run the following commands from the package root. Add `--domain offered` to score against the offered-option four-slot reference.
+
+```sh
+python -B stopping_comparison/paired_stops.py --root . --out replay_paired_stops.json
+cmp replay_paired_stops.json stopping_comparison/paired_stops.json
+```
 
 ### Correctness of changed fixed-three decisions
 
@@ -86,6 +102,34 @@ From the extracted package root, the following command reproduces the [per-group
 python -B stopping_comparison/seed_groups.py --package . --out-dir replay_comparison
 cmp replay_comparison/seed_groups.json stopping_comparison/seed_groups.json
 cmp replay_comparison/seed_items.csv stopping_comparison/seed_items.csv
+```
+
+### Accuracy across the six frame draws
+
+Each four-call group sampled four sets of 128 frames from the same 256-frame pool. DeepSeek returned 637 of 768 counts. It produced 124 empty final answers and exhausted transport retries on seven slots. All 192 video-group pairs had at least one usable report, and 105 had all four. Across all 32 videos, the mean single-call accuracy was 52.60%. Requiring four valid reports gave 40.10% (difference −12.50 percentage points, group SD 1.91). Scoring all available reports gave 62.50% (difference +9.90 points, SD 3.75, range +4.69 to +15.63). The single-call baseline averages the accuracy of the four constituent calls. [DeepSeek group results](../seed_replication/main_results.json)
+
+Eight videos yielded four valid DeepSeek counts in every group. On these videos, mean four-report accuracy was 97.92% and mean single-call accuracy was 90.10%. The gain was 7.81 points (paired 95% CI +0.52 to +17.19, group SD 4.74, range +3.13 to +15.63). A post hoc comparison on these same eight videos gave a gain of 2.08 points when single reports were clipped to 1 through 5 and a difference of −0.52 points when both methods used the offered options. [DeepSeek group results](../seed_replication/main_results.json) · [Candidate-range comparisons](../api_range_sensitivity/results.json)
+
+Qwen used 16 evenly spaced positions from each corresponding 128-frame sample and returned 754 of 768 counts. On the 29 videos with four valid reports in every group, mean four-report accuracy was 40.8%, against 38.5% for the mean single call (difference +2.30 points, paired 95% CI −0.86 to +5.75, group SD 2.76, range 0 to +6.90). On eight of those 29 videos, the four-report estimate changed across groups. Across all 32 videos, requiring four valid reports gave a mean difference of +1.82 points (range −2.34 to +5.47). [Qwen group results](../open_weight_seed/results.json)
+
+### Eight calls on the same frame draws
+
+The eight-call grouping was chosen after data collection. For each video, we concatenated groups 1 and 2, 3 and 4, and 5 and 6, preserving call order within each group. This yields three sequences per video and 96 per model using the same 768 archived calls on 32 distinct videos. Each policy is compared with the eight-slot decision in its own candidate domain.
+
+| Fixed-domain policy | DeepSeek calls | Matches out of 96 | Qwen calls | Matches out of 96 |
+| --- | ---: | ---: | ---: | ---: |
+| All eight | 768 | 96 | 768 | 96 |
+| Exact | 551 | 96 | 514 | 96 |
+| Two agree | 432 | 92 | 294 | 92 |
+| Three agree | 608 | 96 | 393 | 94 |
+
+With the offered options, exact stopping preserved all 96 decisions in 576 DeepSeek calls and 524 Qwen calls. On Qwen video `count_9`, the eight reports were 4, 4, 4, 2, 2, 4, 2 and 2. Three-agree returned 4. Four votes for each count gave equal final scores, and the tie rule selected 2, the annotation. [Results for both domains and every changed agreement-rule decision](seed_horizons.json)
+
+The replay checks the archived four-call group summaries before evaluating eight calls. At every observed prefix through the exact stop, an independent batch scorer checks whether any admissible completion changes the decision. The scores add over reports, so enumeration over multisets of offered values and blanks covers every possible order. The script requires a counterexample at every rejected prefix and invariance at the selected prefix. Run it from the package root.
+
+```sh
+python -B stopping_comparison/seed_horizons.py --package . --out replay_seed_horizons.json
+cmp replay_seed_horizons.json stopping_comparison/seed_horizons.json
 ```
 
 ## Official API token usage

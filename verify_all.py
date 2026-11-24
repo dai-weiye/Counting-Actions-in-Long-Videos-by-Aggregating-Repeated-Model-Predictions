@@ -94,9 +94,13 @@ def main():
         run("stopping_comparison/compare.py", "--package", ROOT, "--out-dir", policies)
         for name in ("results.json", "items.csv"):
             compare(f"stopping_comparison/{name}", policies / name)
+        run("stopping_comparison/paired_stops.py", "--root", ROOT, "--out", result)
+        compare("stopping_comparison/paired_stops.json", result)
         run("stopping_comparison/seed_groups.py", "--package", ROOT, "--out-dir", policies)
         for name in ("seed_groups.json", "seed_items.csv"):
             compare(f"stopping_comparison/{name}", policies / name)
+        run("stopping_comparison/seed_horizons.py", "--package", ROOT, "--out", result)
+        compare("stopping_comparison/seed_horizons.json", result)
         run("stopping_comparison/token_replay.py", "--package", ROOT, "--items",
             policies / "items.csv", "--usage", "stopping_usage/official_api_usage.jsonl",
             "--out", result)

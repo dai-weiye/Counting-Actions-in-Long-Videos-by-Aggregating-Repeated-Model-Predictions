@@ -1,0 +1,739 @@
+{
+  "videos": 32,
+  "group_order": {
+    "4": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        6
+      ]
+    ],
+    "8": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  },
+  "by_model": {
+    "deepseek": {
+      "fixed": {
+        "4": {
+          "policies": {
+            "full": {
+              "n": 192,
+              "calls": 768,
+              "matches_full": 192,
+              "correct": 120,
+              "answered": 192
+            },
+            "exact": {
+              "n": 192,
+              "calls": 573,
+              "matches_full": 192,
+              "correct": 120,
+              "answered": 192
+            },
+            "two_agree": {
+              "n": 192,
+              "calls": 562,
+              "matches_full": 188,
+              "correct": 122,
+              "answered": 192
+            },
+            "three_agree": {
+              "n": 192,
+              "calls": 699,
+              "matches_full": 192,
+              "correct": 120,
+              "answered": 192
+            }
+          }
+        },
+        "8": {
+          "policies": {
+            "full": {
+              "n": 96,
+              "calls": 768,
+              "matches_full": 96,
+              "correct": 62,
+              "answered": 96
+            },
+            "exact": {
+              "n": 96,
+              "calls": 551,
+              "matches_full": 96,
+              "correct": 62,
+              "answered": 96
+            },
+            "two_agree": {
+              "n": 96,
+              "calls": 432,
+              "matches_full": 92,
+              "correct": 63,
+              "answered": 96
+            },
+            "three_agree": {
+              "n": 96,
+              "calls": 608,
+              "matches_full": 96,
+              "correct": 62,
+              "answered": 96
+            }
+          },
+          "changed_by_policy": {
+            "two_agree": [
+              {
+                "id": "count_172",
+                "groups": [
+                  1,
+                  2
+                ],
+                "reports": [
+                  4,
+                  4,
+                  3,
+                  6,
+                  3,
+                  null,
+                  3,
+                  3
+                ],
+                "early": 4,
+                "full": 3,
+                "gold": 3
+              },
+              {
+                "id": "count_151",
+                "groups": [
+                  3,
+                  4
+                ],
+                "reports": [
+                  2,
+                  2,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  null
+                ],
+                "early": 2,
+                "full": 1,
+                "gold": 2
+              },
+              {
+                "id": "count_185",
+                "groups": [
+                  3,
+                  4
+                ],
+                "reports": [
+                  5,
+                  5,
+                  4,
+                  null,
+                  4,
+                  null,
+                  4,
+                  4
+                ],
+                "early": 5,
+                "full": 4,
+                "gold": 5
+              },
+              {
+                "id": "count_223",
+                "groups": [
+                  5,
+                  6
+                ],
+                "reports": [
+                  4,
+                  4,
+                  3,
+                  3,
+                  4,
+                  3,
+                  3,
+                  4
+                ],
+                "early": 4,
+                "full": 3,
+                "gold": 5
+              }
+            ],
+            "three_agree": []
+          }
+        }
+      },
+      "offered": {
+        "4": {
+          "policies": {
+            "full": {
+              "n": 192,
+              "calls": 768,
+              "matches_full": 192,
+              "correct": 116,
+              "answered": 192
+            },
+            "exact": {
+              "n": 192,
+              "calls": 619,
+              "matches_full": 192,
+              "correct": 116,
+              "answered": 192
+            },
+            "two_agree": {
+              "n": 192,
+              "calls": 562,
+              "matches_full": 188,
+              "correct": 118,
+              "answered": 192
+            },
+            "three_agree": {
+              "n": 192,
+              "calls": 699,
+              "matches_full": 192,
+              "correct": 116,
+              "answered": 192
+            }
+          }
+        },
+        "8": {
+          "policies": {
+            "full": {
+              "n": 96,
+              "calls": 768,
+              "matches_full": 96,
+              "correct": 61,
+              "answered": 96
+            },
+            "exact": {
+              "n": 96,
+              "calls": 576,
+              "matches_full": 96,
+              "correct": 61,
+              "answered": 96
+            },
+            "two_agree": {
+              "n": 96,
+              "calls": 432,
+              "matches_full": 92,
+              "correct": 62,
+              "answered": 96
+            },
+            "three_agree": {
+              "n": 96,
+              "calls": 608,
+              "matches_full": 96,
+              "correct": 61,
+              "answered": 96
+            }
+          },
+          "changed_by_policy": {
+            "two_agree": [
+              {
+                "id": "count_172",
+                "groups": [
+                  1,
+                  2
+                ],
+                "reports": [
+                  4,
+                  4,
+                  3,
+                  6,
+                  3,
+                  null,
+                  3,
+                  3
+                ],
+                "early": 4,
+                "full": 3,
+                "gold": 3
+              },
+              {
+                "id": "count_151",
+                "groups": [
+                  3,
+                  4
+                ],
+                "reports": [
+                  2,
+                  2,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  null
+                ],
+                "early": 2,
+                "full": 1,
+                "gold": 2
+              },
+              {
+                "id": "count_185",
+                "groups": [
+                  3,
+                  4
+                ],
+                "reports": [
+                  5,
+                  5,
+                  4,
+                  null,
+                  4,
+                  null,
+                  4,
+                  4
+                ],
+                "early": 5,
+                "full": 4,
+                "gold": 5
+              },
+              {
+                "id": "count_223",
+                "groups": [
+                  5,
+                  6
+                ],
+                "reports": [
+                  4,
+                  4,
+                  3,
+                  3,
+                  4,
+                  3,
+                  3,
+                  4
+                ],
+                "early": 4,
+                "full": 3,
+                "gold": 5
+              }
+            ],
+            "three_agree": []
+          }
+        }
+      }
+    },
+    "qwen": {
+      "fixed": {
+        "4": {
+          "policies": {
+            "full": {
+              "n": 192,
+              "calls": 768,
+              "matches_full": 192,
+              "correct": 75,
+              "answered": 192
+            },
+            "exact": {
+              "n": 192,
+              "calls": 573,
+              "matches_full": 192,
+              "correct": 75,
+              "answered": 192
+            },
+            "two_agree": {
+              "n": 192,
+              "calls": 458,
+              "matches_full": 189,
+              "correct": 72,
+              "answered": 192
+            },
+            "three_agree": {
+              "n": 192,
+              "calls": 622,
+              "matches_full": 192,
+              "correct": 75,
+              "answered": 192
+            }
+          }
+        },
+        "8": {
+          "policies": {
+            "full": {
+              "n": 96,
+              "calls": 768,
+              "matches_full": 96,
+              "correct": 41,
+              "answered": 96
+            },
+            "exact": {
+              "n": 96,
+              "calls": 514,
+              "matches_full": 96,
+              "correct": 41,
+              "answered": 96
+            },
+            "two_agree": {
+              "n": 96,
+              "calls": 294,
+              "matches_full": 92,
+              "correct": 39,
+              "answered": 96
+            },
+            "three_agree": {
+              "n": 96,
+              "calls": 393,
+              "matches_full": 94,
+              "correct": 39,
+              "answered": 96
+            }
+          },
+          "changed_by_policy": {
+            "two_agree": [
+              {
+                "id": "count_178",
+                "groups": [
+                  1,
+                  2
+                ],
+                "reports": [
+                  6,
+                  6,
+                  6,
+                  4,
+                  4,
+                  4,
+                  4,
+                  4
+                ],
+                "early": 5,
+                "full": 4,
+                "gold": 4
+              },
+              {
+                "id": "count_9",
+                "groups": [
+                  1,
+                  2
+                ],
+                "reports": [
+                  4,
+                  4,
+                  4,
+                  2,
+                  2,
+                  4,
+                  2,
+                  2
+                ],
+                "early": 4,
+                "full": 2,
+                "gold": 2
+              },
+              {
+                "id": "count_6",
+                "groups": [
+                  3,
+                  4
+                ],
+                "reports": [
+                  3,
+                  3,
+                  4,
+                  4,
+                  4,
+                  4,
+                  3,
+                  4
+                ],
+                "early": 3,
+                "full": 4,
+                "gold": 3
+              },
+              {
+                "id": "count_151",
+                "groups": [
+                  5,
+                  6
+                ],
+                "reports": [
+                  6,
+                  6,
+                  2,
+                  2,
+                  6,
+                  6,
+                  2,
+                  2
+                ],
+                "early": 5,
+                "full": 2,
+                "gold": 2
+              }
+            ],
+            "three_agree": [
+              {
+                "id": "count_178",
+                "groups": [
+                  1,
+                  2
+                ],
+                "reports": [
+                  6,
+                  6,
+                  6,
+                  4,
+                  4,
+                  4,
+                  4,
+                  4
+                ],
+                "early": 5,
+                "full": 4,
+                "gold": 4
+              },
+              {
+                "id": "count_9",
+                "groups": [
+                  1,
+                  2
+                ],
+                "reports": [
+                  4,
+                  4,
+                  4,
+                  2,
+                  2,
+                  4,
+                  2,
+                  2
+                ],
+                "early": 4,
+                "full": 2,
+                "gold": 2
+              }
+            ]
+          }
+        }
+      },
+      "offered": {
+        "4": {
+          "policies": {
+            "full": {
+              "n": 192,
+              "calls": 768,
+              "matches_full": 192,
+              "correct": 75,
+              "answered": 192
+            },
+            "exact": {
+              "n": 192,
+              "calls": 597,
+              "matches_full": 192,
+              "correct": 75,
+              "answered": 192
+            },
+            "two_agree": {
+              "n": 192,
+              "calls": 458,
+              "matches_full": 189,
+              "correct": 72,
+              "answered": 192
+            },
+            "three_agree": {
+              "n": 192,
+              "calls": 622,
+              "matches_full": 192,
+              "correct": 75,
+              "answered": 192
+            }
+          }
+        },
+        "8": {
+          "policies": {
+            "full": {
+              "n": 96,
+              "calls": 768,
+              "matches_full": 96,
+              "correct": 41,
+              "answered": 96
+            },
+            "exact": {
+              "n": 96,
+              "calls": 524,
+              "matches_full": 96,
+              "correct": 41,
+              "answered": 96
+            },
+            "two_agree": {
+              "n": 96,
+              "calls": 294,
+              "matches_full": 92,
+              "correct": 39,
+              "answered": 96
+            },
+            "three_agree": {
+              "n": 96,
+              "calls": 393,
+              "matches_full": 94,
+              "correct": 39,
+              "answered": 96
+            }
+          },
+          "changed_by_policy": {
+            "two_agree": [
+              {
+                "id": "count_178",
+                "groups": [
+                  1,
+                  2
+                ],
+                "reports": [
+                  6,
+                  6,
+                  6,
+                  4,
+                  4,
+                  4,
+                  4,
+                  4
+                ],
+                "early": 6,
+                "full": 4,
+                "gold": 4
+              },
+              {
+                "id": "count_9",
+                "groups": [
+                  1,
+                  2
+                ],
+                "reports": [
+                  4,
+                  4,
+                  4,
+                  2,
+                  2,
+                  4,
+                  2,
+                  2
+                ],
+                "early": 4,
+                "full": 2,
+                "gold": 2
+              },
+              {
+                "id": "count_6",
+                "groups": [
+                  3,
+                  4
+                ],
+                "reports": [
+                  3,
+                  3,
+                  4,
+                  4,
+                  4,
+                  4,
+                  3,
+                  4
+                ],
+                "early": 3,
+                "full": 4,
+                "gold": 3
+              },
+              {
+                "id": "count_151",
+                "groups": [
+                  5,
+                  6
+                ],
+                "reports": [
+                  6,
+                  6,
+                  2,
+                  2,
+                  6,
+                  6,
+                  2,
+                  2
+                ],
+                "early": 6,
+                "full": 2,
+                "gold": 2
+              }
+            ],
+            "three_agree": [
+              {
+                "id": "count_178",
+                "groups": [
+                  1,
+                  2
+                ],
+                "reports": [
+                  6,
+                  6,
+                  6,
+                  4,
+                  4,
+                  4,
+                  4,
+                  4
+                ],
+                "early": 6,
+                "full": 4,
+                "gold": 4
+              },
+              {
+                "id": "count_9",
+                "groups": [
+                  1,
+                  2
+                ],
+                "reports": [
+                  4,
+                  4,
+                  4,
+                  2,
+                  2,
+                  4,
+                  2,
+                  2
+                ],
+                "early": 4,
+                "full": 2,
+                "gold": 2
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "source_sha256": {
+    "data/action_count.csv": "f1b77135bb8571f0fb95f5a30c72ef487c7d55e0d20f313c3a65760e4788a998",
+    "fourth_call/options.json": "4da983000380c79941bcdbd782b3b1c1e10e0813108d9736cdb3d52c861a3e79",
+    "open_weight_check/cohort.json": "7764d4d2e1f8a2d3a175a580fe2891c0b170500865f7260cd23ecfeeaf97a747",
+    "open_weight_seed/predictions.jsonl": "fe665e590a6d0186013674feb5fb18735fbd61e6df1401e8970bcf80fae4e7e8",
+    "seed_replication/main_terminal_counts.jsonl": "6e806928608e015c752658ab616690b1645cf559d2ef59b16a5c35a84ee9a5f5",
+    "stopping_comparison/seed_groups.json": "0eeba74dc47970b2af3a84d839b288677b896b84382a873673eba86226ade4de"
+  }
+}
