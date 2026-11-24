@@ -1,0 +1,9 @@
+{
+  "scheduled_slots": 240,
+  "terminal_slots": 240,
+  "unique_items": 60,
+  "predictions_sha256": "fa021c084223a5ea8d99f8f612fe654c6808e8c3f95edcdae0c2537d799fb64c",
+  "runtime_sha256": "eeb2bccd66f5965595ff3874ee3c14b778e673581728880c92c96dcf76125272",
+  "cohort_sha256": "26be8ddd6e9311ee7e1045556fcafc92654b7ce1c0a06bca5d0aafd575904c27",
+  "study_design_sha256": "777c95a9914695259fca11a0faa11eb940677e4027536eb1728729339659eb5e"
+}

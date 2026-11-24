@@ -1,0 +1,101 @@
+{
+  "item_id": "AC_8",
+  "video": "test_count_43.mp4",
+  "offered_options_in_prompt_order": [
+    1,
+    5,
+    4,
+    3,
+    6,
+    0
+  ],
+  "candidate_counts": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "admissible_blank": true,
+  "acquired_four_slot_reports": [
+    3,
+    3,
+    4,
+    3
+  ],
+  "gold": 3,
+  "observed_decision": {
+    "split": "test",
+    "item_id": "AC_8",
+    "four_usable": "True",
+    "used_calls": "3",
+    "saved_calls": "1",
+    "early_count": "3",
+    "four_slot_count": "3"
+  },
+  "fourth_slot_shown_as_skipped_in_replay": true,
+  "checkpoints": [
+    {
+      "observed_prefix": [
+        3,
+        3
+      ],
+      "leader": 3,
+      "prefix_scores": {
+        "1": -8,
+        "2": -4,
+        "3": 2,
+        "4": -4,
+        "5": -8
+      },
+      "minimum_final_lead_by_rival": {
+        "1": 0,
+        "2": 2,
+        "4": 0,
+        "5": 0
+      },
+      "possible_final_counts": [
+        1,
+        3
+      ],
+      "completions_by_final_count": {
+        "1": 1,
+        "3": 48
+      },
+      "stop": false
+    },
+    {
+      "observed_prefix": [
+        3,
+        3,
+        4
+      ],
+      "leader": 3,
+      "prefix_scores": {
+        "1": -14,
+        "2": -8,
+        "3": 0,
+        "4": -3,
+        "5": -10
+      },
+      "minimum_final_lead_by_rival": {
+        "1": 9,
+        "2": 6,
+        "4": 0,
+        "5": 5
+      },
+      "possible_final_counts": [
+        3
+      ],
+      "completions_by_final_count": {
+        "3": 7
+      },
+      "stop": true
+    }
+  ],
+  "source_sha256": {
+    "external_eval/items.json": "1d05905c14e424bd42d7609770ed1e8865618dd12fca19fe6fbb73bffb769596",
+    "external_eval/calls.jsonl": "a992f769bb8cfd663ab05103d7951cbe210646a014f02c4b6aa8090fbe433e0d",
+    "exact_stopping/items.csv": "acf11bd8124c788986be8e8f8b79e48cf2e71932a696ca53ade0ed547662e3d7"
+  }
+}

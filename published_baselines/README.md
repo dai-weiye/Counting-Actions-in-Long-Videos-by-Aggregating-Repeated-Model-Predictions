@@ -1,0 +1,16 @@
+# Published MLVU Action Count results
+
+These six external baselines report exact-count accuracy on MLVU Action Count. The papers used different video inputs, models and inference budgets. Scores are transcribed as printed. The benchmark contains 206 four-option development questions and 60 six-option test questions. [MLVU split definitions, supplement p. 1](https://openaccess.thecvf.com/content/CVPR2025/supplemental/Zhou_MLVU_Benchmarking_Multi-task_CVPR_2025_supplemental.pdf#page=1)
+
+| System | Published input or backbone | Dev (%) | Test (%) | Source of the task score |
+|---|---|---:|---:|---|
+| Vgent | Qwen2-VL-7B, graph indexed at 1 fps with speech transcripts, up to five retrieved clips | 60.2 | | [NeurIPS 2025, Table 6, p. 21](https://proceedings.neurips.cc/paper_files/paper/2025/file/91b75715a2ae8f2542b78be31941eac3-Paper-Conference.pdf#page=21) |
+| HPP | GPT-5-mini planner with Qwen3-VL-2B perception, adaptive frame and clip queries | 53.9 | | [EMNLP 2026, Table 8, p. 19](https://aclanthology.org/2026.emnlp-main.2377.pdf#page=19) |
+| DIG | Qwen2.5-VL-32B, 192 selected frames | 53.9 | | [CVPR 2026 supplement, Table 4, left panel, p. 6](https://openaccess.thecvf.com/content/CVPR2026/supplemental/Li_Divide_then_Ground_CVPR_2026_supplemental.pdf#page=6) |
+| VideoZoomer | Qwen2.5-VL-7B, up to 64 overview frames and four zooms of up to 16 frames | 50.5 | 28.3 | [ICLR 2026, Table 2, p. 7](https://proceedings.iclr.cc/paper_files/paper/2026/file/221b2665260a582f7eb821b9871e8001-Paper-Conference.pdf#page=7) |
+| GPT-4o | 0.5 fps | 46.3 | 35.0 | [MLVU supplement, Table 2, p. 2](https://openaccess.thecvf.com/content/CVPR2025/supplemental/Zhou_MLVU_Benchmarking_Multi-task_CVPR_2025_supplemental.pdf#page=2) and [main paper, Table 2, p. 7](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhou_MLVU_Benchmarking_Multi-task_Long_Video_Understanding_CVPR_2025_paper.pdf#page=7) |
+| Video-XL-7B | 256 uniformly sampled frames | 40.3 | 31.7 | [MLVU supplement, Table 2, p. 2](https://openaccess.thecvf.com/content/CVPR2025/supplemental/Zhou_MLVU_Benchmarking_Multi-task_CVPR_2025_supplemental.pdf#page=2) and [main paper, Table 2, p. 7](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhou_MLVU_Benchmarking_Multi-task_Long_Video_Understanding_CVPR_2025_paper.pdf#page=7) |
+
+A blank test cell means the cited source gives a development score only. For GPT-4o on the test set, the adjacent Action Order and Action Count columns read 46.2 and 35.0 respectively. [MLVU test results, Table 2](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhou_MLVU_Benchmarking_Multi-task_Long_Video_Understanding_CVPR_2025_paper.pdf#page=7)
+
+Each result in [the source index](sources.json) identifies its row, metric column and PDF page. Vgent's evaluation instructions link to the public development data. HPP's authors identify their 69.3 macro-average run as the development evaluation. DIG's supplement explicitly specifies the development multiple-choice questions. [Vgent evaluation instructions](https://raw.githubusercontent.com/xiaoqian-shen/Vgent/main/README.md) · [HPP results](https://github.com/AwaisRauf/hpp#results) · [DIG data description, p. 1](https://openaccess.thecvf.com/content/CVPR2026/supplemental/Li_Divide_then_Ground_CVPR_2026_supplemental.pdf#page=1)

@@ -1,0 +1,22 @@
+{
+  "locked_utc": "2026-11-23T21:50:26.837172+00:00",
+  "raw_model_receipts_at_lock": 160,
+  "test_answers_opened": false,
+  "sha256": {
+    "protocol.md": "79e4759d12deb353e78379d1838f6444507b2e79acd54692a436be29499e416c",
+    "acquisition_notes.md": "e2c62d2126aad49ef7d8eae3e9901bf6f7ee4d27a598e785319ff70b40a1a8df",
+    "collect_test.py": "16291c37d503a163851291dc54f9e71fa91bef6f96d90c3374cd5ad9a64e97a0",
+    "prepare_scores.py": "a6a9082225f7338f06069950cb1f358e2912a286a6dc00830a9444f93696ebbd",
+    "score_test.py": "150d6a0c6775151bf1ef19428f7fe10c634c170961f2f83ccf3d3a026923f8d7",
+    "freeze_payloads.py": "d2ea1750b1d15c8df3e2c7f4e27e6fb0f25c1d1d3fad656cb130fbd0e34a6400",
+    "fourth_call/analyze.py": "4411eb4a4d314bf0a5c6d3abcc35ef126bd049c042f315ae4bdb0ad7276413b7"
+  },
+  "versions": {
+    "python": "3.13.5",
+    "opencv": "5.0.0",
+    "numpy": "2.5.4",
+    "Pillow": "12.0.0",
+    "requests": "2.34.2",
+    "sklearn": "1.7.2"
+  }
+}

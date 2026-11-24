@@ -1,0 +1,608 @@
+{
+  "repository": "sy1998/MLVU_Test",
+  "revision": "4a9826be2bc6c86f9cab9222a06a55c224098958",
+  "annotation_file": "mlvu_test/test-00000-of-00001.parquet",
+  "annotation_sha256": "b2fffd0cddbdf0ed54592db33e46979b20082bb00ee3db828e820f5080d87262",
+  "videos": {
+    "test_count_36.mp4": {
+      "archive": "video_part_1.zip",
+      "archive_sha256": "c02bcc24fb38804f57d09c30f3f47c85aeb7e1e82533e54292a00c44f3201925",
+      "path": "test_count_36.mp4",
+      "header_offset": 140681362,
+      "compression": 8,
+      "compressed": 68346785,
+      "bytes": 68664688,
+      "crc32": 2715361304
+    },
+    "test_count_14.mp4": {
+      "archive": "video_part_1.zip",
+      "archive_sha256": "c02bcc24fb38804f57d09c30f3f47c85aeb7e1e82533e54292a00c44f3201925",
+      "path": "test_count_14.mp4",
+      "header_offset": 311726313,
+      "compression": 8,
+      "compressed": 48877341,
+      "bytes": 49280277,
+      "crc32": 2889890019
+    },
+    "test_count_55.mp4": {
+      "archive": "video_part_1.zip",
+      "archive_sha256": "c02bcc24fb38804f57d09c30f3f47c85aeb7e1e82533e54292a00c44f3201925",
+      "path": "test_count_55.mp4",
+      "header_offset": 1666531243,
+      "compression": 8,
+      "compressed": 545978142,
+      "bytes": 550718114,
+      "crc32": 4178035074
+    },
+    "test_count_0.mp4": {
+      "archive": "video_part_1.zip",
+      "archive_sha256": "c02bcc24fb38804f57d09c30f3f47c85aeb7e1e82533e54292a00c44f3201925",
+      "path": "test_count_0.mp4",
+      "header_offset": 2560537203,
+      "compression": 8,
+      "compressed": 56273186,
+      "bytes": 56640264,
+      "crc32": 58350609
+    },
+    "test_count_56.mp4": {
+      "archive": "video_part_1.zip",
+      "archive_sha256": "c02bcc24fb38804f57d09c30f3f47c85aeb7e1e82533e54292a00c44f3201925",
+      "path": "test_count_56.mp4",
+      "header_offset": 2654069061,
+      "compression": 8,
+      "compressed": 59269186,
+      "bytes": 59575715,
+      "crc32": 1719441974
+    },
+    "test_count_1.mp4": {
+      "archive": "video_part_1.zip",
+      "archive_sha256": "c02bcc24fb38804f57d09c30f3f47c85aeb7e1e82533e54292a00c44f3201925",
+      "path": "test_count_1.mp4",
+      "header_offset": 3490458684,
+      "compression": 8,
+      "compressed": 55011212,
+      "bytes": 55564989,
+      "crc32": 2857602144
+    },
+    "test_count_6.mp4": {
+      "archive": "video_part_1.zip",
+      "archive_sha256": "c02bcc24fb38804f57d09c30f3f47c85aeb7e1e82533e54292a00c44f3201925",
+      "path": "test_count_6.mp4",
+      "header_offset": 4640652922,
+      "compression": 8,
+      "compressed": 35221200,
+      "bytes": 35658104,
+      "crc32": 2944590011
+    },
+    "test_count_9.mp4": {
+      "archive": "video_part_1.zip",
+      "archive_sha256": "c02bcc24fb38804f57d09c30f3f47c85aeb7e1e82533e54292a00c44f3201925",
+      "path": "test_count_9.mp4",
+      "header_offset": 4840756862,
+      "compression": 8,
+      "compressed": 52330686,
+      "bytes": 52677182,
+      "crc32": 3079039908
+    },
+    "test_count_35.mp4": {
+      "archive": "video_part_1.zip",
+      "archive_sha256": "c02bcc24fb38804f57d09c30f3f47c85aeb7e1e82533e54292a00c44f3201925",
+      "path": "test_count_35.mp4",
+      "header_offset": 8669714105,
+      "compression": 8,
+      "compressed": 68038851,
+      "bytes": 68413003,
+      "crc32": 4270928425
+    },
+    "test_count_41.mp4": {
+      "archive": "video_part_1.zip",
+      "archive_sha256": "c02bcc24fb38804f57d09c30f3f47c85aeb7e1e82533e54292a00c44f3201925",
+      "path": "test_count_41.mp4",
+      "header_offset": 8798256519,
+      "compression": 8,
+      "compressed": 68882644,
+      "bytes": 69252601,
+      "crc32": 2753345046
+    },
+    "test_count_20.mp4": {
+      "archive": "video_part_1.zip",
+      "archive_sha256": "c02bcc24fb38804f57d09c30f3f47c85aeb7e1e82533e54292a00c44f3201925",
+      "path": "test_count_20.mp4",
+      "header_offset": 15466683370,
+      "compression": 8,
+      "compressed": 53243575,
+      "bytes": 53749734,
+      "crc32": 1245886225
+    },
+    "test_count_21.mp4": {
+      "archive": "video_part_1.zip",
+      "archive_sha256": "c02bcc24fb38804f57d09c30f3f47c85aeb7e1e82533e54292a00c44f3201925",
+      "path": "test_count_21.mp4",
+      "header_offset": 15519926992,
+      "compression": 8,
+      "compressed": 43223562,
+      "bytes": 43628781,
+      "crc32": 3333726759
+    },
+    "test_count_15.mp4": {
+      "archive": "video_part_1.zip",
+      "archive_sha256": "c02bcc24fb38804f57d09c30f3f47c85aeb7e1e82533e54292a00c44f3201925",
+      "path": "test_count_15.mp4",
+      "header_offset": 15563150601,
+      "compression": 8,
+      "compressed": 79882290,
+      "bytes": 80368277,
+      "crc32": 4113097616
+    },
+    "test_count_10.mp4": {
+      "archive": "video_part_1.zip",
+      "archive_sha256": "c02bcc24fb38804f57d09c30f3f47c85aeb7e1e82533e54292a00c44f3201925",
+      "path": "test_count_10.mp4",
+      "header_offset": 18998326754,
+      "compression": 8,
+      "compressed": 102015274,
+      "bytes": 102594322,
+      "crc32": 1521059647
+    },
+    "test_count_44.mp4": {
+      "archive": "video_part_1.zip",
+      "archive_sha256": "c02bcc24fb38804f57d09c30f3f47c85aeb7e1e82533e54292a00c44f3201925",
+      "path": "test_count_44.mp4",
+      "header_offset": 19234216078,
+      "compression": 8,
+      "compressed": 43807818,
+      "bytes": 44135286,
+      "crc32": 1395864923
+    },
+    "test_count_54.mp4": {
+      "archive": "video_part_2.zip",
+      "archive_sha256": "b1098ac99ad55f68756687f1ea834f699415a419e3bbe55e0a8be913742ee9a6",
+      "path": "test_count_54.mp4",
+      "header_offset": 353924112,
+      "compression": 8,
+      "compressed": 76189493,
+      "bytes": 76661543,
+      "crc32": 1141560984
+    },
+    "test_count_59.mp4": {
+      "archive": "video_part_2.zip",
+      "archive_sha256": "b1098ac99ad55f68756687f1ea834f699415a419e3bbe55e0a8be913742ee9a6",
+      "path": "test_count_59.mp4",
+      "header_offset": 676809051,
+      "compression": 8,
+      "compressed": 84300288,
+      "bytes": 84900021,
+      "crc32": 4177609700
+    },
+    "test_count_50.mp4": {
+      "archive": "video_part_2.zip",
+      "archive_sha256": "b1098ac99ad55f68756687f1ea834f699415a419e3bbe55e0a8be913742ee9a6",
+      "path": "test_count_50.mp4",
+      "header_offset": 2325294003,
+      "compression": 8,
+      "compressed": 91954596,
+      "bytes": 92543594,
+      "crc32": 324681619
+    },
+    "test_count_38.mp4": {
+      "archive": "video_part_2.zip",
+      "archive_sha256": "b1098ac99ad55f68756687f1ea834f699415a419e3bbe55e0a8be913742ee9a6",
+      "path": "test_count_38.mp4",
+      "header_offset": 2430920540,
+      "compression": 8,
+      "compressed": 48522920,
+      "bytes": 48817761,
+      "crc32": 2918419490
+    },
+    "test_count_49.mp4": {
+      "archive": "video_part_2.zip",
+      "archive_sha256": "b1098ac99ad55f68756687f1ea834f699415a419e3bbe55e0a8be913742ee9a6",
+      "path": "test_count_49.mp4",
+      "header_offset": 4871650362,
+      "compression": 8,
+      "compressed": 82225441,
+      "bytes": 82521063,
+      "crc32": 1951024870
+    },
+    "test_count_27.mp4": {
+      "archive": "video_part_2.zip",
+      "archive_sha256": "b1098ac99ad55f68756687f1ea834f699415a419e3bbe55e0a8be913742ee9a6",
+      "path": "test_count_27.mp4",
+      "header_offset": 6561146246,
+      "compression": 8,
+      "compressed": 54672122,
+      "bytes": 55001949,
+      "crc32": 375651868
+    },
+    "test_count_46.mp4": {
+      "archive": "video_part_2.zip",
+      "archive_sha256": "b1098ac99ad55f68756687f1ea834f699415a419e3bbe55e0a8be913742ee9a6",
+      "path": "test_count_46.mp4",
+      "header_offset": 6870550954,
+      "compression": 8,
+      "compressed": 835766337,
+      "bytes": 844423658,
+      "crc32": 4109521908
+    },
+    "test_count_5.mp4": {
+      "archive": "video_part_2.zip",
+      "archive_sha256": "b1098ac99ad55f68756687f1ea834f699415a419e3bbe55e0a8be913742ee9a6",
+      "path": "test_count_5.mp4",
+      "header_offset": 7759751155,
+      "compression": 8,
+      "compressed": 66823802,
+      "bytes": 67138170,
+      "crc32": 1219105933
+    },
+    "test_count_8.mp4": {
+      "archive": "video_part_2.zip",
+      "archive_sha256": "b1098ac99ad55f68756687f1ea834f699415a419e3bbe55e0a8be913742ee9a6",
+      "path": "test_count_8.mp4",
+      "header_offset": 8872489254,
+      "compression": 8,
+      "compressed": 58208241,
+      "bytes": 58533991,
+      "crc32": 4148447679
+    },
+    "test_count_26.mp4": {
+      "archive": "video_part_2.zip",
+      "archive_sha256": "b1098ac99ad55f68756687f1ea834f699415a419e3bbe55e0a8be913742ee9a6",
+      "path": "test_count_26.mp4",
+      "header_offset": 10109125152,
+      "compression": 8,
+      "compressed": 65138368,
+      "bytes": 65503438,
+      "crc32": 250188787
+    },
+    "test_count_29.mp4": {
+      "archive": "video_part_2.zip",
+      "archive_sha256": "b1098ac99ad55f68756687f1ea834f699415a419e3bbe55e0a8be913742ee9a6",
+      "path": "test_count_29.mp4",
+      "header_offset": 10302590587,
+      "compression": 8,
+      "compressed": 86446069,
+      "bytes": 86806527,
+      "crc32": 327246223
+    },
+    "test_count_57.mp4": {
+      "archive": "video_part_2.zip",
+      "archive_sha256": "b1098ac99ad55f68756687f1ea834f699415a419e3bbe55e0a8be913742ee9a6",
+      "path": "test_count_57.mp4",
+      "header_offset": 10435430354,
+      "compression": 8,
+      "compressed": 55858473,
+      "bytes": 56207328,
+      "crc32": 1156342549
+    },
+    "test_count_31.mp4": {
+      "archive": "video_part_2.zip",
+      "archive_sha256": "b1098ac99ad55f68756687f1ea834f699415a419e3bbe55e0a8be913742ee9a6",
+      "path": "test_count_31.mp4",
+      "header_offset": 10491288874,
+      "compression": 8,
+      "compressed": 58059045,
+      "bytes": 58391644,
+      "crc32": 2834657452
+    },
+    "test_count_2.mp4": {
+      "archive": "video_part_2.zip",
+      "archive_sha256": "b1098ac99ad55f68756687f1ea834f699415a419e3bbe55e0a8be913742ee9a6",
+      "path": "test_count_2.mp4",
+      "header_offset": 14065177648,
+      "compression": 8,
+      "compressed": 75566122,
+      "bytes": 76070315,
+      "crc32": 3817639583
+    },
+    "test_count_19.mp4": {
+      "archive": "video_part_2.zip",
+      "archive_sha256": "b1098ac99ad55f68756687f1ea834f699415a419e3bbe55e0a8be913742ee9a6",
+      "path": "test_count_19.mp4",
+      "header_offset": 14802146510,
+      "compression": 8,
+      "compressed": 31769149,
+      "bytes": 32173446,
+      "crc32": 1490733357
+    },
+    "test_count_42.mp4": {
+      "archive": "video_part_2.zip",
+      "archive_sha256": "b1098ac99ad55f68756687f1ea834f699415a419e3bbe55e0a8be913742ee9a6",
+      "path": "test_count_42.mp4",
+      "header_offset": 15040344757,
+      "compression": 8,
+      "compressed": 69767181,
+      "bytes": 70199557,
+      "crc32": 1448038734
+    },
+    "test_count_4.mp4": {
+      "archive": "video_part_2.zip",
+      "archive_sha256": "b1098ac99ad55f68756687f1ea834f699415a419e3bbe55e0a8be913742ee9a6",
+      "path": "test_count_4.mp4",
+      "header_offset": 18387778300,
+      "compression": 8,
+      "compressed": 88536450,
+      "bytes": 88901256,
+      "crc32": 542925719
+    },
+    "test_count_34.mp4": {
+      "archive": "video_part_2.zip",
+      "archive_sha256": "b1098ac99ad55f68756687f1ea834f699415a419e3bbe55e0a8be913742ee9a6",
+      "path": "test_count_34.mp4",
+      "header_offset": 18666365899,
+      "compression": 8,
+      "compressed": 51170651,
+      "bytes": 52062204,
+      "crc32": 1294258842
+    },
+    "test_count_13.mp4": {
+      "archive": "video_part_3.zip",
+      "archive_sha256": "ce177fdca82877064bedee76503ef922f0bfdc149b363977221bb75f102ca5e3",
+      "path": "test_count_13.mp4",
+      "header_offset": 435357283,
+      "compression": 8,
+      "compressed": 71297211,
+      "bytes": 71691167,
+      "crc32": 2043754907
+    },
+    "test_count_51.mp4": {
+      "archive": "video_part_3.zip",
+      "archive_sha256": "ce177fdca82877064bedee76503ef922f0bfdc149b363977221bb75f102ca5e3",
+      "path": "test_count_51.mp4",
+      "header_offset": 3980088393,
+      "compression": 8,
+      "compressed": 68039419,
+      "bytes": 68457330,
+      "crc32": 1815411300
+    },
+    "test_count_32.mp4": {
+      "archive": "video_part_3.zip",
+      "archive_sha256": "ce177fdca82877064bedee76503ef922f0bfdc149b363977221bb75f102ca5e3",
+      "path": "test_count_32.mp4",
+      "header_offset": 4419002924,
+      "compression": 8,
+      "compressed": 96308399,
+      "bytes": 96942439,
+      "crc32": 1341470967
+    },
+    "test_count_25.mp4": {
+      "archive": "video_part_3.zip",
+      "archive_sha256": "ce177fdca82877064bedee76503ef922f0bfdc149b363977221bb75f102ca5e3",
+      "path": "test_count_25.mp4",
+      "header_offset": 5829796578,
+      "compression": 8,
+      "compressed": 45471848,
+      "bytes": 46289604,
+      "crc32": 1076791187
+    },
+    "test_count_28.mp4": {
+      "archive": "video_part_3.zip",
+      "archive_sha256": "ce177fdca82877064bedee76503ef922f0bfdc149b363977221bb75f102ca5e3",
+      "path": "test_count_28.mp4",
+      "header_offset": 7048885462,
+      "compression": 8,
+      "compressed": 99162021,
+      "bytes": 99711557,
+      "crc32": 3731863279
+    },
+    "test_count_39.mp4": {
+      "archive": "video_part_3.zip",
+      "archive_sha256": "ce177fdca82877064bedee76503ef922f0bfdc149b363977221bb75f102ca5e3",
+      "path": "test_count_39.mp4",
+      "header_offset": 7424001587,
+      "compression": 8,
+      "compressed": 49779914,
+      "bytes": 50187740,
+      "crc32": 4035506922
+    },
+    "test_count_17.mp4": {
+      "archive": "video_part_3.zip",
+      "archive_sha256": "ce177fdca82877064bedee76503ef922f0bfdc149b363977221bb75f102ca5e3",
+      "path": "test_count_17.mp4",
+      "header_offset": 7473781548,
+      "compression": 8,
+      "compressed": 36692766,
+      "bytes": 37017918,
+      "crc32": 2342466142
+    },
+    "test_count_11.mp4": {
+      "archive": "video_part_3.zip",
+      "archive_sha256": "ce177fdca82877064bedee76503ef922f0bfdc149b363977221bb75f102ca5e3",
+      "path": "test_count_11.mp4",
+      "header_offset": 7601174248,
+      "compression": 8,
+      "compressed": 49058389,
+      "bytes": 49488996,
+      "crc32": 385311343
+    },
+    "test_count_22.mp4": {
+      "archive": "video_part_3.zip",
+      "archive_sha256": "ce177fdca82877064bedee76503ef922f0bfdc149b363977221bb75f102ca5e3",
+      "path": "test_count_22.mp4",
+      "header_offset": 7931179441,
+      "compression": 8,
+      "compressed": 59044357,
+      "bytes": 59353305,
+      "crc32": 1238282241
+    },
+    "test_count_18.mp4": {
+      "archive": "video_part_3.zip",
+      "archive_sha256": "ce177fdca82877064bedee76503ef922f0bfdc149b363977221bb75f102ca5e3",
+      "path": "test_count_18.mp4",
+      "header_offset": 7990223845,
+      "compression": 8,
+      "compressed": 61035292,
+      "bytes": 62002139,
+      "crc32": 1554457658
+    },
+    "test_count_3.mp4": {
+      "archive": "video_part_3.zip",
+      "archive_sha256": "ce177fdca82877064bedee76503ef922f0bfdc149b363977221bb75f102ca5e3",
+      "path": "test_count_3.mp4",
+      "header_offset": 10888062723,
+      "compression": 8,
+      "compressed": 61646108,
+      "bytes": 61961304,
+      "crc32": 4215044587
+    },
+    "test_count_23.mp4": {
+      "archive": "video_part_3.zip",
+      "archive_sha256": "ce177fdca82877064bedee76503ef922f0bfdc149b363977221bb75f102ca5e3",
+      "path": "test_count_23.mp4",
+      "header_offset": 12535902230,
+      "compression": 8,
+      "compressed": 52743842,
+      "bytes": 53291422,
+      "crc32": 1932002070
+    },
+    "test_count_24.mp4": {
+      "archive": "video_part_3.zip",
+      "archive_sha256": "ce177fdca82877064bedee76503ef922f0bfdc149b363977221bb75f102ca5e3",
+      "path": "test_count_24.mp4",
+      "header_offset": 15693843930,
+      "compression": 8,
+      "compressed": 73869468,
+      "bytes": 74485010,
+      "crc32": 3512206931
+    },
+    "test_count_40.mp4": {
+      "archive": "video_part_3.zip",
+      "archive_sha256": "ce177fdca82877064bedee76503ef922f0bfdc149b363977221bb75f102ca5e3",
+      "path": "test_count_40.mp4",
+      "header_offset": 18250932849,
+      "compression": 8,
+      "compressed": 31680430,
+      "bytes": 32067677,
+      "crc32": 3222675852
+    },
+    "test_count_45.mp4": {
+      "archive": "video_part_4.zip",
+      "archive_sha256": "2c2ba320cc7273eaaade085491c058380c7f0bfe5148ed27d9f535c76d28b701",
+      "path": "test_count_45.mp4",
+      "header_offset": 463606731,
+      "compression": 8,
+      "compressed": 96648127,
+      "bytes": 97034279,
+      "crc32": 3027937662
+    },
+    "test_count_48.mp4": {
+      "archive": "video_part_4.zip",
+      "archive_sha256": "2c2ba320cc7273eaaade085491c058380c7f0bfe5148ed27d9f535c76d28b701",
+      "path": "test_count_48.mp4",
+      "header_offset": 560254905,
+      "compression": 8,
+      "compressed": 73616165,
+      "bytes": 74240281,
+      "crc32": 3643949679
+    },
+    "test_count_37.mp4": {
+      "archive": "video_part_4.zip",
+      "archive_sha256": "2c2ba320cc7273eaaade085491c058380c7f0bfe5148ed27d9f535c76d28b701",
+      "path": "test_count_37.mp4",
+      "header_offset": 901442846,
+      "compression": 8,
+      "compressed": 19775089,
+      "bytes": 20029881,
+      "crc32": 3445840171
+    },
+    "test_count_47.mp4": {
+      "archive": "video_part_4.zip",
+      "archive_sha256": "2c2ba320cc7273eaaade085491c058380c7f0bfe5148ed27d9f535c76d28b701",
+      "path": "test_count_47.mp4",
+      "header_offset": 1669532928,
+      "compression": 8,
+      "compressed": 51111517,
+      "bytes": 51479646,
+      "crc32": 3592821561
+    },
+    "test_count_7.mp4": {
+      "archive": "video_part_4.zip",
+      "archive_sha256": "2c2ba320cc7273eaaade085491c058380c7f0bfe5148ed27d9f535c76d28b701",
+      "path": "test_count_7.mp4",
+      "header_offset": 4801450136,
+      "compression": 8,
+      "compressed": 551575180,
+      "bytes": 556475254,
+      "crc32": 459738632
+    },
+    "test_count_12.mp4": {
+      "archive": "video_part_4.zip",
+      "archive_sha256": "2c2ba320cc7273eaaade085491c058380c7f0bfe5148ed27d9f535c76d28b701",
+      "path": "test_count_12.mp4",
+      "header_offset": 6185766561,
+      "compression": 8,
+      "compressed": 58184923,
+      "bytes": 59135777,
+      "crc32": 2644041037
+    },
+    "test_count_43.mp4": {
+      "archive": "video_part_4.zip",
+      "archive_sha256": "2c2ba320cc7273eaaade085491c058380c7f0bfe5148ed27d9f535c76d28b701",
+      "path": "test_count_43.mp4",
+      "header_offset": 7180762001,
+      "compression": 8,
+      "compressed": 92174344,
+      "bytes": 92515034,
+      "crc32": 862881506
+    },
+    "test_count_33.mp4": {
+      "archive": "video_part_4.zip",
+      "archive_sha256": "2c2ba320cc7273eaaade085491c058380c7f0bfe5148ed27d9f535c76d28b701",
+      "path": "test_count_33.mp4",
+      "header_offset": 7575172927,
+      "compression": 8,
+      "compressed": 30585150,
+      "bytes": 30987528,
+      "crc32": 223182635
+    },
+    "test_count_53.mp4": {
+      "archive": "video_part_4.zip",
+      "archive_sha256": "2c2ba320cc7273eaaade085491c058380c7f0bfe5148ed27d9f535c76d28b701",
+      "path": "test_count_53.mp4",
+      "header_offset": 8427368336,
+      "compression": 8,
+      "compressed": 87227446,
+      "bytes": 87557070,
+      "crc32": 4047413710
+    },
+    "test_count_52.mp4": {
+      "archive": "video_part_4.zip",
+      "archive_sha256": "2c2ba320cc7273eaaade085491c058380c7f0bfe5148ed27d9f535c76d28b701",
+      "path": "test_count_52.mp4",
+      "header_offset": 8811510102,
+      "compression": 8,
+      "compressed": 50978568,
+      "bytes": 51363785,
+      "crc32": 4217480600
+    },
+    "test_count_16.mp4": {
+      "archive": "video_part_4.zip",
+      "archive_sha256": "2c2ba320cc7273eaaade085491c058380c7f0bfe5148ed27d9f535c76d28b701",
+      "path": "test_count_16.mp4",
+      "header_offset": 16751544863,
+      "compression": 8,
+      "compressed": 64145836,
+      "bytes": 64494173,
+      "crc32": 3879142281
+    },
+    "test_count_30.mp4": {
+      "archive": "video_part_4.zip",
+      "archive_sha256": "2c2ba320cc7273eaaade085491c058380c7f0bfe5148ed27d9f535c76d28b701",
+      "path": "test_count_30.mp4",
+      "header_offset": 16815690746,
+      "compression": 8,
+      "compressed": 91041686,
+      "bytes": 91416135,
+      "crc32": 2976071521
+    },
+    "test_count_58.mp4": {
+      "archive": "video_part_4.zip",
+      "archive_sha256": "2c2ba320cc7273eaaade085491c058380c7f0bfe5148ed27d9f535c76d28b701",
+      "path": "test_count_58.mp4",
+      "header_offset": 17285032353,
+      "compression": 8,
+      "compressed": 87807944,
+      "bytes": 88168574,
+      "crc32": 2835393447
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "planned_questions": 32,
+  "planned_slots": 768,
+  "terminal_slots": 768,
+  "not_recorded_slots": 0,
+  "terminal_status_counts": {
+    "blank_final": 124,
+    "ok": 637,
+    "transport_exhausted": 7
+  },
+  "by_group": {
+    "1": {
+      "terminal": {
+        "blank_final": 20,
+        "ok": 107,
+        "transport_exhausted": 1
+      },
+      "not_recorded": 0
+    },
+    "2": {
+      "terminal": {
+        "blank_final": 20,
+        "ok": 107,
+        "transport_exhausted": 1
+      },
+      "not_recorded": 0
+    },
+    "3": {
+      "terminal": {
+        "blank_final": 22,
+        "ok": 106
+      },
+      "not_recorded": 0
+    },
+    "4": {
+      "terminal": {
+        "blank_final": 25,
+        "ok": 100,
+        "transport_exhausted": 3
+      },
+      "not_recorded": 0
+    },
+    "5": {
+      "terminal": {
+        "blank_final": 18,
+        "ok": 109,
+        "transport_exhausted": 1
+      },
+      "not_recorded": 0
+    },
+    "6": {
+      "terminal": {
+        "blank_final": 19,
+        "ok": 108,
+        "transport_exhausted": 1
+      },
+      "not_recorded": 0
+    }
+  },
+  "not_recorded": []
+}

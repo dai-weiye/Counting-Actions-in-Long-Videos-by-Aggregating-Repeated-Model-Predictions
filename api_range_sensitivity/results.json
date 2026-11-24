@@ -1,0 +1,389 @@
+{
+  "analysis": "Post hoc candidate-range sensitivity after completion of all six API seed groups.",
+  "contrast": "Four-report accuracy minus the mean accuracy of its four constituent single calls, in percentage points.",
+  "rules": {
+    "strict": "Requires four usable reports; an unanswered video-group counts as incorrect.",
+    "available": "Scores all usable reports; an unanswered video-group counts as incorrect.",
+    "fixed": "Score integers 1 through 5, breaking ties toward the smaller count.",
+    "offered": "Score the video's listed numerical options, breaking ties toward the smaller count.",
+    "clipped_single": "Clip each usable single response to 1 through 5; an unanswered slot counts as incorrect."
+  },
+  "common_complete": {
+    "videos": 8,
+    "groups": [
+      {
+        "group": 1,
+        "video_groups": 8,
+        "single_slots": 32,
+        "usable_single_slots": 32,
+        "raw_single_correct": 30,
+        "clipped_single_correct": 32,
+        "strict_answered": 8,
+        "available_answered": 8,
+        "strict_fixed_correct": 8,
+        "available_fixed_correct": 8,
+        "strict_offered_correct": 7,
+        "available_offered_correct": 7,
+        "gain_pp": {
+          "strict": {
+            "fixed_minus_raw_pp": 6.25,
+            "fixed_minus_clipped_pp": 0.0,
+            "offered_minus_raw_pp": -6.25
+          },
+          "available": {
+            "fixed_minus_raw_pp": 6.25,
+            "fixed_minus_clipped_pp": 0.0,
+            "offered_minus_raw_pp": -6.25
+          }
+        }
+      },
+      {
+        "group": 2,
+        "video_groups": 8,
+        "single_slots": 32,
+        "usable_single_slots": 32,
+        "raw_single_correct": 29,
+        "clipped_single_correct": 32,
+        "strict_answered": 8,
+        "available_answered": 8,
+        "strict_fixed_correct": 8,
+        "available_fixed_correct": 8,
+        "strict_offered_correct": 7,
+        "available_offered_correct": 7,
+        "gain_pp": {
+          "strict": {
+            "fixed_minus_raw_pp": 9.375,
+            "fixed_minus_clipped_pp": 0.0,
+            "offered_minus_raw_pp": -3.125
+          },
+          "available": {
+            "fixed_minus_raw_pp": 9.375,
+            "fixed_minus_clipped_pp": 0.0,
+            "offered_minus_raw_pp": -3.125
+          }
+        }
+      },
+      {
+        "group": 3,
+        "video_groups": 8,
+        "single_slots": 32,
+        "usable_single_slots": 32,
+        "raw_single_correct": 23,
+        "clipped_single_correct": 27,
+        "strict_answered": 8,
+        "available_answered": 8,
+        "strict_fixed_correct": 7,
+        "available_fixed_correct": 7,
+        "strict_offered_correct": 5,
+        "available_offered_correct": 5,
+        "gain_pp": {
+          "strict": {
+            "fixed_minus_raw_pp": 15.625,
+            "fixed_minus_clipped_pp": 3.125,
+            "offered_minus_raw_pp": -9.375
+          },
+          "available": {
+            "fixed_minus_raw_pp": 15.625,
+            "fixed_minus_clipped_pp": 3.125,
+            "offered_minus_raw_pp": -9.375
+          }
+        }
+      },
+      {
+        "group": 4,
+        "video_groups": 8,
+        "single_slots": 32,
+        "usable_single_slots": 32,
+        "raw_single_correct": 31,
+        "clipped_single_correct": 32,
+        "strict_answered": 8,
+        "available_answered": 8,
+        "strict_fixed_correct": 8,
+        "available_fixed_correct": 8,
+        "strict_offered_correct": 8,
+        "available_offered_correct": 8,
+        "gain_pp": {
+          "strict": {
+            "fixed_minus_raw_pp": 3.125,
+            "fixed_minus_clipped_pp": 0.0,
+            "offered_minus_raw_pp": 3.125
+          },
+          "available": {
+            "fixed_minus_raw_pp": 3.125,
+            "fixed_minus_clipped_pp": 0.0,
+            "offered_minus_raw_pp": 3.125
+          }
+        }
+      },
+      {
+        "group": 5,
+        "video_groups": 8,
+        "single_slots": 32,
+        "usable_single_slots": 32,
+        "raw_single_correct": 31,
+        "clipped_single_correct": 31,
+        "strict_answered": 8,
+        "available_answered": 8,
+        "strict_fixed_correct": 8,
+        "available_fixed_correct": 8,
+        "strict_offered_correct": 8,
+        "available_offered_correct": 8,
+        "gain_pp": {
+          "strict": {
+            "fixed_minus_raw_pp": 3.125,
+            "fixed_minus_clipped_pp": 3.125,
+            "offered_minus_raw_pp": 3.125
+          },
+          "available": {
+            "fixed_minus_raw_pp": 3.125,
+            "fixed_minus_clipped_pp": 3.125,
+            "offered_minus_raw_pp": 3.125
+          }
+        }
+      },
+      {
+        "group": 6,
+        "video_groups": 8,
+        "single_slots": 32,
+        "usable_single_slots": 32,
+        "raw_single_correct": 29,
+        "clipped_single_correct": 30,
+        "strict_answered": 8,
+        "available_answered": 8,
+        "strict_fixed_correct": 8,
+        "available_fixed_correct": 8,
+        "strict_offered_correct": 8,
+        "available_offered_correct": 8,
+        "gain_pp": {
+          "strict": {
+            "fixed_minus_raw_pp": 9.375,
+            "fixed_minus_clipped_pp": 6.25,
+            "offered_minus_raw_pp": 9.375
+          },
+          "available": {
+            "fixed_minus_raw_pp": 9.375,
+            "fixed_minus_clipped_pp": 6.25,
+            "offered_minus_raw_pp": 9.375
+          }
+        }
+      }
+    ],
+    "overall": {
+      "video_groups": 48,
+      "single_slots": 192,
+      "usable_single_slots": 192,
+      "raw_single_correct": 173,
+      "clipped_single_correct": 184,
+      "strict_answered": 48,
+      "available_answered": 48,
+      "strict_fixed_correct": 47,
+      "available_fixed_correct": 47,
+      "strict_offered_correct": 43,
+      "available_offered_correct": 43,
+      "gain_pp": {
+        "strict": {
+          "fixed_minus_raw_pp": 7.8125,
+          "fixed_minus_clipped_pp": 2.0833333333333335,
+          "offered_minus_raw_pp": -0.5208333333333334
+        },
+        "available": {
+          "fixed_minus_raw_pp": 7.8125,
+          "fixed_minus_clipped_pp": 2.0833333333333335,
+          "offered_minus_raw_pp": -0.5208333333333334
+        }
+      }
+    }
+  },
+  "all_planned": {
+    "videos": 32,
+    "groups": [
+      {
+        "group": 1,
+        "video_groups": 32,
+        "single_slots": 128,
+        "usable_single_slots": 107,
+        "raw_single_correct": 66,
+        "clipped_single_correct": 69,
+        "strict_answered": 16,
+        "available_answered": 32,
+        "strict_fixed_correct": 13,
+        "available_fixed_correct": 18,
+        "strict_offered_correct": 12,
+        "available_offered_correct": 17,
+        "gain_pp": {
+          "strict": {
+            "fixed_minus_raw_pp": -10.9375,
+            "fixed_minus_clipped_pp": -13.28125,
+            "offered_minus_raw_pp": -14.0625
+          },
+          "available": {
+            "fixed_minus_raw_pp": 4.6875,
+            "fixed_minus_clipped_pp": 2.34375,
+            "offered_minus_raw_pp": 1.5625
+          }
+        }
+      },
+      {
+        "group": 2,
+        "video_groups": 32,
+        "single_slots": 128,
+        "usable_single_slots": 107,
+        "raw_single_correct": 68,
+        "clipped_single_correct": 72,
+        "strict_answered": 18,
+        "available_answered": 32,
+        "strict_fixed_correct": 12,
+        "available_fixed_correct": 22,
+        "strict_offered_correct": 11,
+        "available_offered_correct": 21,
+        "gain_pp": {
+          "strict": {
+            "fixed_minus_raw_pp": -15.625,
+            "fixed_minus_clipped_pp": -18.75,
+            "offered_minus_raw_pp": -18.75
+          },
+          "available": {
+            "fixed_minus_raw_pp": 15.625,
+            "fixed_minus_clipped_pp": 12.5,
+            "offered_minus_raw_pp": 12.5
+          }
+        }
+      },
+      {
+        "group": 3,
+        "video_groups": 32,
+        "single_slots": 128,
+        "usable_single_slots": 106,
+        "raw_single_correct": 64,
+        "clipped_single_correct": 70,
+        "strict_answered": 19,
+        "available_answered": 32,
+        "strict_fixed_correct": 12,
+        "available_fixed_correct": 20,
+        "strict_offered_correct": 10,
+        "available_offered_correct": 18,
+        "gain_pp": {
+          "strict": {
+            "fixed_minus_raw_pp": -12.5,
+            "fixed_minus_clipped_pp": -17.1875,
+            "offered_minus_raw_pp": -18.75
+          },
+          "available": {
+            "fixed_minus_raw_pp": 12.5,
+            "fixed_minus_clipped_pp": 7.8125,
+            "offered_minus_raw_pp": 6.25
+          }
+        }
+      },
+      {
+        "group": 4,
+        "video_groups": 32,
+        "single_slots": 128,
+        "usable_single_slots": 100,
+        "raw_single_correct": 69,
+        "clipped_single_correct": 71,
+        "strict_answered": 16,
+        "available_answered": 32,
+        "strict_fixed_correct": 14,
+        "available_fixed_correct": 20,
+        "strict_offered_correct": 14,
+        "available_offered_correct": 20,
+        "gain_pp": {
+          "strict": {
+            "fixed_minus_raw_pp": -10.15625,
+            "fixed_minus_clipped_pp": -11.71875,
+            "offered_minus_raw_pp": -10.15625
+          },
+          "available": {
+            "fixed_minus_raw_pp": 8.59375,
+            "fixed_minus_clipped_pp": 7.03125,
+            "offered_minus_raw_pp": 8.59375
+          }
+        }
+      },
+      {
+        "group": 5,
+        "video_groups": 32,
+        "single_slots": 128,
+        "usable_single_slots": 109,
+        "raw_single_correct": 69,
+        "clipped_single_correct": 69,
+        "strict_answered": 20,
+        "available_answered": 32,
+        "strict_fixed_correct": 13,
+        "available_fixed_correct": 20,
+        "strict_offered_correct": 13,
+        "available_offered_correct": 20,
+        "gain_pp": {
+          "strict": {
+            "fixed_minus_raw_pp": -13.28125,
+            "fixed_minus_clipped_pp": -13.28125,
+            "offered_minus_raw_pp": -13.28125
+          },
+          "available": {
+            "fixed_minus_raw_pp": 8.59375,
+            "fixed_minus_clipped_pp": 8.59375,
+            "offered_minus_raw_pp": 8.59375
+          }
+        }
+      },
+      {
+        "group": 6,
+        "video_groups": 32,
+        "single_slots": 128,
+        "usable_single_slots": 108,
+        "raw_single_correct": 68,
+        "clipped_single_correct": 70,
+        "strict_answered": 16,
+        "available_answered": 32,
+        "strict_fixed_correct": 13,
+        "available_fixed_correct": 20,
+        "strict_offered_correct": 13,
+        "available_offered_correct": 20,
+        "gain_pp": {
+          "strict": {
+            "fixed_minus_raw_pp": -12.5,
+            "fixed_minus_clipped_pp": -14.0625,
+            "offered_minus_raw_pp": -12.5
+          },
+          "available": {
+            "fixed_minus_raw_pp": 9.375,
+            "fixed_minus_clipped_pp": 7.8125,
+            "offered_minus_raw_pp": 9.375
+          }
+        }
+      }
+    ],
+    "overall": {
+      "video_groups": 192,
+      "single_slots": 768,
+      "usable_single_slots": 637,
+      "raw_single_correct": 404,
+      "clipped_single_correct": 421,
+      "strict_answered": 105,
+      "available_answered": 192,
+      "strict_fixed_correct": 77,
+      "available_fixed_correct": 120,
+      "strict_offered_correct": 73,
+      "available_offered_correct": 116,
+      "gain_pp": {
+        "strict": {
+          "fixed_minus_raw_pp": -12.5,
+          "fixed_minus_clipped_pp": -14.713541666666666,
+          "offered_minus_raw_pp": -14.583333333333334
+        },
+        "available": {
+          "fixed_minus_raw_pp": 9.895833333333334,
+          "fixed_minus_clipped_pp": 7.682291666666667,
+          "offered_minus_raw_pp": 7.8125
+        }
+      }
+    }
+  },
+  "input_sha256": {
+    "reports": "6e806928608e015c752658ab616690b1645cf559d2ef59b16a5c35a84ee9a5f5",
+    "design": "d7f81f6a26ecb6fe567312564ef9f176f4fc351198943e837c760273fb437f8c",
+    "options": "4da983000380c79941bcdbd782b3b1c1e10e0813108d9736cdb3d52c861a3e79",
+    "labels": "f1b77135bb8571f0fb95f5a30c72ef487c7d55e0d20f313c3a65760e4788a998"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "acquisition_dates_utc": [
+    "2026-11-23"
+  ],
+  "requested_model": "deepseek-flash",
+  "all_responses_report_requested_alias": true,
+  "model_responses": 412,
+  "responses_with_service_fingerprint": 412,
+  "distinct_nonempty_service_fingerprints": 1,
+  "temperature": 0,
+  "thinking": "enabled",
+  "max_output_tokens": 8192,
+  "jpeg_quality": 90,
+  "frames_per_call": 128,
+  "pool_sizes": {
+    "uniform": 128,
+    "change": 256
+  },
+  "request_replay_software": {
+    "python": "3.13.5",
+    "numpy": "2.5.4",
+    "opencv": "5.0.0",
+    "pillow": "12.0.0",
+    "requests": "2.34.2"
+  },
+  "arm_order": "uniform first for even planned positions, change first for odd planned positions",
+  "accepted_final": "whitespace-trimmed final content must exactly equal a listed numeric option",
+  "client_attempts_for_terminal_slots": {
+    "uniform": {
+      "http_200": 206,
+      "transport_error": 3
+    },
+    "change": {
+      "http_200": 206,
+      "transport_error": 2
+    }
+  }
+}

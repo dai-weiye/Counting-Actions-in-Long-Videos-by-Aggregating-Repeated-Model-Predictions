@@ -1,0 +1,152 @@
+{
+  "frame_counts_per_temporal_bin": {
+    "change": [
+      4,
+      12,
+      7,
+      7,
+      11,
+      8,
+      15,
+      11,
+      10,
+      14,
+      3,
+      8,
+      9,
+      5,
+      4,
+      0
+    ],
+    "uniform": [
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8
+    ]
+  },
+  "item": "AC_8",
+  "options": [
+    1,
+    5,
+    4,
+    3,
+    6,
+    0
+  ],
+  "frame_source": "external_eval/selected_frames.jsonl",
+  "last_uniform_index": 15285,
+  "per_report_scores": [
+    [
+      -4,
+      -2,
+      1,
+      -2,
+      -4
+    ],
+    [
+      -4,
+      -2,
+      1,
+      -2,
+      -4
+    ],
+    [
+      -6,
+      -4,
+      -2,
+      1,
+      -2
+    ]
+  ],
+  "cumulative_scores": [
+    [
+      -4,
+      -2,
+      1,
+      -2,
+      -4
+    ],
+    [
+      -8,
+      -4,
+      2,
+      -4,
+      -8
+    ],
+    [
+      -14,
+      -8,
+      0,
+      -3,
+      -10
+    ]
+  ],
+  "checkpoints": [
+    {
+      "prefix": [
+        3,
+        3
+      ],
+      "leader": 3,
+      "rivals": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "lead": [
+        10,
+        6,
+        6,
+        10
+      ],
+      "worst_final_lead": [
+        0,
+        2,
+        0,
+        0
+      ],
+      "safe": false
+    },
+    {
+      "prefix": [
+        3,
+        3,
+        4
+      ],
+      "leader": 3,
+      "rivals": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "lead": [
+        14,
+        8,
+        3,
+        10
+      ],
+      "worst_final_lead": [
+        9,
+        6,
+        0,
+        5
+      ],
+      "safe": true
+    }
+  ]
+}

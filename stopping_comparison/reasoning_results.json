@@ -1,0 +1,102 @@
+{
+  "questions": 60,
+  "observed_api_slots": 240,
+  "full_reasoning_tokens": 899398,
+  "input_sha256": {
+    "planned_slots": "81843ab635b4f8a83419731261e5e9009d71468587840920cc7a5615b0af5423",
+    "usage_ledger": "4308a51263e075e48f88e4dbba0a292f2c240d291f33a38057a8f5f16806ffe6",
+    "policy_items": "7c7410c18af60200993ad7d0e6a86518affb27b6c691d1567e924808af923ca8",
+    "reasoning_usage": "98fb60887b25a154026af56d2d9660ac5d0697be5ecefd0d6fe1a286ee339cc2",
+    "original_token_results": "066be33da2d9d882ecc69010259d856889cdf0e7667c15e318bafcb9ec6b03f3"
+  },
+  "by_domain": {
+    "fixed": {
+      "fixed_1": {
+        "calls": 60,
+        "reasoning_tokens": 216714,
+        "saved_vs_four": 682684,
+        "saved_pct_vs_four": 75.90454948754612
+      },
+      "fixed_2": {
+        "calls": 120,
+        "reasoning_tokens": 427711,
+        "saved_vs_four": 471687,
+        "saved_pct_vs_four": 52.44474637479736
+      },
+      "fixed_3": {
+        "calls": 180,
+        "reasoning_tokens": 658986,
+        "saved_vs_four": 240412,
+        "saved_pct_vs_four": 26.730324061205383
+      },
+      "fixed_4": {
+        "calls": 240,
+        "reasoning_tokens": 899398,
+        "saved_vs_four": 0,
+        "saved_pct_vs_four": 0.0
+      },
+      "three_agree": {
+        "calls": 208,
+        "reasoning_tokens": 786503,
+        "saved_vs_four": 112895,
+        "saved_pct_vs_four": 12.552284972837386
+      },
+      "two_agree": {
+        "calls": 162,
+        "reasoning_tokens": 609723,
+        "saved_vs_four": 289675,
+        "saved_pct_vs_four": 32.2076544533121
+      },
+      "exact": {
+        "calls": 180,
+        "reasoning_tokens": 697054,
+        "saved_vs_four": 202344,
+        "saved_pct_vs_four": 22.497715138348095
+      }
+    },
+    "offered": {
+      "fixed_1": {
+        "calls": 60,
+        "reasoning_tokens": 216714,
+        "saved_vs_four": 682684,
+        "saved_pct_vs_four": 75.90454948754612
+      },
+      "fixed_2": {
+        "calls": 120,
+        "reasoning_tokens": 427711,
+        "saved_vs_four": 471687,
+        "saved_pct_vs_four": 52.44474637479736
+      },
+      "fixed_3": {
+        "calls": 180,
+        "reasoning_tokens": 658986,
+        "saved_vs_four": 240412,
+        "saved_pct_vs_four": 26.730324061205383
+      },
+      "fixed_4": {
+        "calls": 240,
+        "reasoning_tokens": 899398,
+        "saved_vs_four": 0,
+        "saved_pct_vs_four": 0.0
+      },
+      "three_agree": {
+        "calls": 208,
+        "reasoning_tokens": 786503,
+        "saved_vs_four": 112895,
+        "saved_pct_vs_four": 12.552284972837386
+      },
+      "two_agree": {
+        "calls": 162,
+        "reasoning_tokens": 609723,
+        "saved_vs_four": 289675,
+        "saved_pct_vs_four": 32.2076544533121
+      },
+      "exact": {
+        "calls": 191,
+        "reasoning_tokens": 715293,
+        "saved_vs_four": 184105,
+        "saved_pct_vs_four": 20.469803134985845
+      }
+    }
+  }
+}

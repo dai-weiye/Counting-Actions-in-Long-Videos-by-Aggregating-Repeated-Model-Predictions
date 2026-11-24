@@ -1,0 +1,67 @@
+{
+  "canvas_pt": [
+    511.92,
+    162.0
+  ],
+  "coordinate_origin": "top left",
+  "rect_format": "left, top, right, bottom in points",
+  "pages": [
+    {
+      "page": 1,
+      "figure": "overview",
+      "source_pptx_sha256": "dcc76ba372dd62e14569b458bc84fc54be1774d92d8e3f9dad97cad701849880",
+      "source_size_pt": [
+        511.92,
+        162.0
+      ],
+      "rect_pt": [
+        0.0,
+        0.0,
+        511.92,
+        162.0
+      ],
+      "native_shapes": 259,
+      "native_connectors": 44,
+      "native_groups": 7,
+      "text_runs": 75
+    },
+    {
+      "page": 2,
+      "figure": "sampling_control",
+      "source_pptx_sha256": "2e0dae6dacf81b124ea28a45344eee89d126f22f1dbdb8191318f5259f5de1c3",
+      "source_size_pt": [
+        246.0,
+        104.0
+      ],
+      "rect_pt": [
+        132.96,
+        29.0,
+        378.96,
+        133.0
+      ],
+      "native_shapes": 21,
+      "native_connectors": 8,
+      "native_groups": 1,
+      "text_runs": 14
+    },
+    {
+      "page": 3,
+      "figure": "count_errors",
+      "source_pptx_sha256": "a30b053c9d17df4ddaadcf8be448e00701df1abe77889b40b74c6a4912b6f4c1",
+      "source_size_pt": [
+        246.0,
+        116.0
+      ],
+      "rect_pt": [
+        132.96,
+        23.0,
+        378.96,
+        139.0
+      ],
+      "native_shapes": 23,
+      "native_connectors": 6,
+      "native_groups": 0,
+      "text_runs": 18
+    }
+  ]
+}

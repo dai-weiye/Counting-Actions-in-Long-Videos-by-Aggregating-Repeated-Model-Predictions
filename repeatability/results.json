@@ -1,0 +1,32 @@
+{
+  "planned": 103,
+  "identical_request_digests": 103,
+  "first_status": {
+    "ok": 94,
+    "blank_final": 9
+  },
+  "repeat_status": {
+    "ok": 88,
+    "blank_final": 15
+  },
+  "paired_status": {
+    "ok/ok": 83,
+    "blank_final/ok": 5,
+    "ok/blank_final": 11,
+    "blank_final/blank_final": 4
+  },
+  "response_fingerprints": {
+    "same": 103
+  },
+  "both_valid": 83,
+  "different_valid_counts": 19,
+  "at_least_one_unusable_final": 20,
+  "disagreement_conditional": 0.2289156626506024,
+  "disagreement_wilson_95": [
+    0.15173364740724515,
+    0.33008067709743943
+  ],
+  "same_numeric_or_same_failure_status": 68,
+  "both_valid_same_fingerprint": 83,
+  "different_valid_counts_same_fingerprint": 19
+}

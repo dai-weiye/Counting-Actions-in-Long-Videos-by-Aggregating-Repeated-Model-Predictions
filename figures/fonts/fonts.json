@@ -1,0 +1,29 @@
+{
+  "_doc": "The English-language figures embed Arimo Regular and Bold, which provide Arial-compatible glyph metrics.",
+  "default": "arial",
+  "generic": {
+    "sans-serif": "arial"
+  },
+  "families": {
+    "arial": {
+      "display": "Arial (Arimo, metric-compatible)",
+      "css_family": "Arimo",
+      "aliases": [
+        "Arial",
+        "ArialMT",
+        "Arial-BoldMT",
+        "Liberation Sans",
+        "LiberationSans",
+        "Arimo"
+      ],
+      "stack": "Arimo, 'Liberation Sans', Arial, Helvetica, sans-serif",
+      "files": {
+        "regular": "Arimo-Regular.ttf",
+        "bold": "Arimo-Bold.ttf"
+      },
+      "license": "Apache License, Version 2.0; see LICENSE-Arimo.txt and the names embedded in the TTFs."
+    }
+  },
+  "cjk_default": null,
+  "system_font_dirs": []
+}

@@ -1,0 +1,58 @@
+{
+  "dataset": "MLVU/MVLU",
+  "release_tree": "https://huggingface.co/datasets/MLVU/MVLU/tree/06ddc388aa34746b3abba77972b7a7dfd977f7a3/MLVU/video/4_count",
+  "release_revision": "06ddc388aa34746b3abba77972b7a7dfd977f7a3",
+  "mirror_dataset": "AI-ModelScope/MLVU",
+  "mirror_revision": "ac6596ed9bd694c8061d1c176ce1959f9b44cee6",
+  "mirror_file_endpoint": "https://www.modelscope.cn/api/v1/datasets/AI-ModelScope/MLVU/repo",
+  "mirror_file_parameters": {
+    "Revision": "ac6596ed9bd694c8061d1c176ce1959f9b44cee6",
+    "FilePath": "the per-file path below"
+  },
+  "sha256_source": "ModelScope release tree at the recorded mirror revision",
+  "size_crosscheck": "Hugging Face release tree at the recorded release revision",
+  "files": [
+    {
+      "item_id": "count_201",
+      "path": "MLVU/video/4_count/count_201.mp4",
+      "bytes": 621790771,
+      "sha256": "31e0847e233814a92736cdd09cbc4d718d2795e57de63dd36e2f8dce7f9647a1"
+    },
+    {
+      "item_id": "count_205",
+      "path": "MLVU/video/4_count/count_205.mp4",
+      "bytes": 901802168,
+      "sha256": "27647a981e0f3fa4ee8de867b5b472567c4715fc5a63411ee919f480dcfad25e"
+    },
+    {
+      "item_id": "count_216",
+      "path": "MLVU/video/4_count/count_216.mp4",
+      "bytes": 1109481123,
+      "sha256": "123365331aea34690081c6b392bc528851d3b690dd7c2b85fa5947bc65e6c70a"
+    },
+    {
+      "item_id": "count_226",
+      "path": "MLVU/video/4_count/count_226.mp4",
+      "bytes": 938138885,
+      "sha256": "a4a413b3d1eddcf78e38bcc70bc02b3ed109e6509aa203859ce0c86fee98c426"
+    },
+    {
+      "item_id": "count_229",
+      "path": "MLVU/video/4_count/count_229.mp4",
+      "bytes": 838943130,
+      "sha256": "eb5757d5d70f1d6f478e7a949fdae1e40d9cf7e1c7efb38632106b9ae11bf12c"
+    },
+    {
+      "item_id": "count_232",
+      "path": "MLVU/video/4_count/count_232.mp4",
+      "bytes": 799815062,
+      "sha256": "97550d9b608a42c0511910ab990e09d83c28043b8cada7394b9fe40d672b554a"
+    },
+    {
+      "item_id": "count_235",
+      "path": "MLVU/video/4_count/count_235.mp4",
+      "bytes": 1131047109,
+      "sha256": "13a005d23aa4616d76477d5ba0a16261fdfff538cd9d17e2fff30c1c0e502256"
+    }
+  ]
+}

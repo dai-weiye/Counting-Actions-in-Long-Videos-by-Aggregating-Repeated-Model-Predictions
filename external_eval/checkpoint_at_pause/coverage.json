@@ -1,0 +1,18 @@
+{
+  "planned_items": 60,
+  "planned_slots": 240,
+  "responses_received": 160,
+  "slots_without_model_response": 80,
+  "received_statuses": {
+    "blank_final": 31,
+    "ok": 129
+  },
+  "videos_by_number_of_received_responses": {
+    "0": 17,
+    "1": 2,
+    "2": 3,
+    "4": 38
+  },
+  "videos_with_four_valid_responses": 22,
+  "unreceived_with_http_402": 5
+}

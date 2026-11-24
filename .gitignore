@@ -1,0 +1,38 @@
+# Local environments and generated Python files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+
+# Credentials and local inference traffic
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+*request.json
+*response.json
+local_run/
+local_runs/
+private_run/
+
+# Downloaded videos, model weights and reconstructed inputs
+video_cache/
+model_cache/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.safetensors
+*.parquet
+
+# Local replay and figure exports
+/replay*.json
+/replay*.csv
+/replay_comparison/
+/held_out_replay/
+/redraw/

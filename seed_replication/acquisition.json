@@ -1,0 +1,60 @@
+{
+  "decoder_software": {
+    "python": "3.13.5",
+    "numpy": "2.5.4",
+    "pillow": "12.0.0",
+    "requests": "2.34.2",
+    "opencv": "5.0.0"
+  },
+  "protocol_sha256": "66f2c6eea10fae96e59f30e5dd23b0ae792df568ae9046a51b8a383537254689",
+  "aggregation_rule": "integer distance score with smaller maximizing candidate",
+  "request_model": "deepseek-flash",
+  "temperature": 0,
+  "output_token_limit": 8192,
+  "thinking": "enabled",
+  "jpeg_quality": 90,
+  "frame_pool": 256,
+  "frames_per_call": 128,
+  "main": {
+    "questions": 32,
+    "terminal_calls": 768,
+    "completion_reasons": {
+      "stop": 637,
+      "length": 124,
+      "transport_exhausted": 7
+    },
+    "attempt_outcomes": {
+      "200": 761,
+      "ConnectionError": 51,
+      "ChunkedEncodingError": 1
+    },
+    "reported_model_aliases": [
+      "deepseek-flash"
+    ],
+    "number_of_distinct_reported_service_fingerprints": 1,
+    "UTC_dates": [
+      "2026-11-23",
+      "2026-11-24"
+    ],
+    "input_design_sha256": "d7f81f6a26ecb6fe567312564ef9f176f4fc351198943e837c760273fb437f8c"
+  },
+  "recovery": {
+    "questions": 6,
+    "terminal_calls": 24,
+    "completion_reasons": {
+      "length": 9,
+      "stop": 15
+    },
+    "attempt_outcomes": {
+      "200": 24
+    },
+    "reported_model_aliases": [
+      "deepseek-flash"
+    ],
+    "number_of_distinct_reported_service_fingerprints": 1,
+    "UTC_dates": [
+      "2026-11-23"
+    ],
+    "input_design_sha256": "bbfff08c8ea2971dfd37e003913bba87b2c1eebfbf7d8e2baafba443f39a47ac"
+  }
+}

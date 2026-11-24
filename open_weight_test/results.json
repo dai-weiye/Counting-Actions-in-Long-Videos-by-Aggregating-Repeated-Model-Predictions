@@ -1,0 +1,123 @@
+{
+  "planned_questions": 60,
+  "terminal_slots": 240,
+  "status_by_slot": {
+    "U1": {
+      "ok": 60
+    },
+    "U2": {
+      "ok": 60
+    },
+    "U3": {
+      "ok": 60
+    },
+    "C4": {
+      "ok": 59,
+      "invalid_final": 1
+    }
+  },
+  "complete_pairs": 59,
+  "paired_four_vs_raw_first": {
+    "n": 59,
+    "aggregate_correct": 15,
+    "reference_correct": 14,
+    "aggregate_mae": 1.6610169491525424,
+    "reference_mae": 1.6779661016949152,
+    "wins": 2,
+    "losses": 1,
+    "delta_pp": 1.694915254237288,
+    "paired_95pct_delta_pp": [
+      -3.389830508474576,
+      8.474576271186441
+    ],
+    "exact_mcnemar_p": 1.0
+  },
+  "paired_four_vs_clipped_first": {
+    "n": 59,
+    "aggregate_correct": 15,
+    "reference_correct": 15,
+    "aggregate_mae": 1.6610169491525424,
+    "reference_mae": 1.6610169491525424,
+    "wins": 0,
+    "losses": 0,
+    "delta_pp": 0.0,
+    "paired_95pct_delta_pp": [
+      0.0,
+      0.0
+    ],
+    "exact_mcnemar_p": 1.0
+  },
+  "paired_offered_four_vs_raw_first": {
+    "n": 59,
+    "aggregate_correct": 14,
+    "reference_correct": 14,
+    "aggregate_mae": 1.6779661016949152,
+    "reference_mae": 1.6779661016949152,
+    "wins": 0,
+    "losses": 0,
+    "delta_pp": 0.0,
+    "paired_95pct_delta_pp": [
+      0.0,
+      0.0
+    ],
+    "exact_mcnemar_p": 1.0
+  },
+  "counts": {
+    "three_uniform_usable": 60,
+    "three_uniform_disagree": 0,
+    "both_u1_c4_usable": 59,
+    "u1_c4_disagree": 12,
+    "four_equals_clipped_u1": 59,
+    "single_answered": 60,
+    "range_matched_single_answered": 60,
+    "four_required_answered": 59,
+    "available_report_fallback_answered": 60,
+    "duration_tree_answered": 60
+  },
+  "correct_all_planned": {
+    "single": 15,
+    "range_matched_single": 16,
+    "four_required": 15,
+    "available_report_fallback": 16,
+    "duration_tree": 18
+  },
+  "complete_cohort_correct": {
+    "single": 14,
+    "clipped_median_three": 15,
+    "vote_three": 14,
+    "vote_four": 14,
+    "lower_four": 15,
+    "upper_four": 15,
+    "offered_four": 14
+  },
+  "reference_count_histogram": {
+    "1": 10,
+    "2": 15,
+    "3": 4,
+    "4": 8,
+    "5": 13,
+    "6": 10
+  },
+  "reference_outside_candidates": 10,
+  "exact_stopping": {
+    "n": 60,
+    "planned_calls": 240,
+    "calls_to_fixed_decision": 175,
+    "calls_saved": 65,
+    "saved_pct": 27.083333333333332,
+    "equal_decisions": 60,
+    "stopped_after_calls": {
+      "1": 0,
+      "2": 5,
+      "3": 55,
+      "4": 0
+    },
+    "four_usable": 59,
+    "unanswered_after_four": 0
+  },
+  "input_hashes": {
+    "predictions": "fa021c084223a5ea8d99f8f612fe654c6808e8c3f95edcdae0c2537d799fb64c",
+    "annotations": "b2fffd0cddbdf0ed54592db33e46979b20082bb00ee3db828e820f5080d87262",
+    "duration_predictions": "d0d1a9dcf966364cc4d09780ff95f3a0ac189e0f50f027352470f749dbe943bd"
+  }
+}

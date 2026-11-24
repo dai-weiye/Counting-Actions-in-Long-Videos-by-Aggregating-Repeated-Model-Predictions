@@ -1,0 +1,25 @@
+{
+  "description": "Observed usage replay under prefixes of four archived responses per video. Each replay sums the counters for the retained slots.",
+  "questions": 60,
+  "slots": 240,
+  "totals": {
+    "prompt_tokens": 7702808,
+    "completion_tokens": 899792,
+    "total_tokens": 8602600
+  },
+  "usage_jsonl_sha256": "4308a51263e075e48f88e4dbba0a292f2c240d291f33a38057a8f5f16806ffe6",
+  "source_receipt_files_sha256_by_slot": {
+    "U1": "8e8fc2042152c4dbd82f2db466ca0d6415286ab2c11d06624675e2be3ca8a9cf",
+    "U2": "80921d71507bcadbdab370e9d1539ab49bd0bbdfaf30e5135bd9650a2e7c83e1",
+    "U3": "d74e785436b74acb1b63e35d8795495f6b368ac00dfc9e43f5b91e6ab2a283a7",
+    "C4": "5ba294df0abdf3675c40a6aae36973298be019c089d2d3f081864665069aab61"
+  },
+  "release_files_sha256": {
+    "items.json": "1d05905c14e424bd42d7609770ed1e8865618dd12fca19fe6fbb73bffb769596",
+    "calls.jsonl": "a992f769bb8cfd663ab05103d7951cbe210646a014f02c4b6aa8090fbe433e0d",
+    "planned_slots.jsonl": "81843ab635b4f8a83419731261e5e9009d71468587840920cc7a5615b0af5423",
+    "collect_test.py": "16291c37d503a163851291dc54f9e71fa91bef6f96d90c3374cd5ad9a64e97a0",
+    "resume_locked_test.py": "c3e9113d49e924eeac73c48271e11d1ffa3c0c4fd3a2d6710953bd773660c184"
+  },
+  "receipt_collector_sha256": "05d8f74d0880c61b520b165f63f4e60648b65bbb2682e18103d9879d726ef593"
+}

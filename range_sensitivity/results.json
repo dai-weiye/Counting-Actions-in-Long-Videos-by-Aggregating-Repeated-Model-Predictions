@@ -1,0 +1,82 @@
+{
+  "analysis": "Post hoc candidate-range sensitivity after completion of the six Qwen seed groups.",
+  "contrast": "Four-report accuracy minus the mean accuracy of its four constituent single calls in percentage points.",
+  "cohort": "Intersection of videos with 24 valid listed responses. Each group uses the same videos.",
+  "planned_videos": 32,
+  "common_videos": 29,
+  "constituent_single_reports_per_group": 116,
+  "common_reports_outside_fixed_range": 14,
+  "groups": [
+    {
+      "group": 1,
+      "fixed_four_correct": 10,
+      "offered_four_correct": 10,
+      "raw_single_correct_out_of_4n": 40,
+      "clipped_single_correct_out_of_4n": 40,
+      "fixed_minus_raw_pp": 0.0,
+      "fixed_minus_clipped_pp": 0.0,
+      "offered_minus_raw_pp": 0.0
+    },
+    {
+      "group": 2,
+      "fixed_four_correct": 12,
+      "offered_four_correct": 12,
+      "raw_single_correct_out_of_4n": 46,
+      "clipped_single_correct_out_of_4n": 47,
+      "fixed_minus_raw_pp": 1.7241379310344827,
+      "fixed_minus_clipped_pp": 0.8620689655172413,
+      "offered_minus_raw_pp": 1.7241379310344827
+    },
+    {
+      "group": 3,
+      "fixed_four_correct": 14,
+      "offered_four_correct": 14,
+      "raw_single_correct_out_of_4n": 48,
+      "clipped_single_correct_out_of_4n": 48,
+      "fixed_minus_raw_pp": 6.896551724137931,
+      "fixed_minus_clipped_pp": 6.896551724137931,
+      "offered_minus_raw_pp": 6.896551724137931
+    },
+    {
+      "group": 4,
+      "fixed_four_correct": 11,
+      "offered_four_correct": 11,
+      "raw_single_correct_out_of_4n": 44,
+      "clipped_single_correct_out_of_4n": 44,
+      "fixed_minus_raw_pp": 0.0,
+      "fixed_minus_clipped_pp": 0.0,
+      "offered_minus_raw_pp": 0.0
+    },
+    {
+      "group": 5,
+      "fixed_four_correct": 12,
+      "offered_four_correct": 12,
+      "raw_single_correct_out_of_4n": 47,
+      "clipped_single_correct_out_of_4n": 47,
+      "fixed_minus_raw_pp": 0.8620689655172413,
+      "fixed_minus_clipped_pp": 0.8620689655172413,
+      "offered_minus_raw_pp": 0.8620689655172413
+    },
+    {
+      "group": 6,
+      "fixed_four_correct": 12,
+      "offered_four_correct": 12,
+      "raw_single_correct_out_of_4n": 43,
+      "clipped_single_correct_out_of_4n": 43,
+      "fixed_minus_raw_pp": 4.310344827586207,
+      "fixed_minus_clipped_pp": 4.310344827586207,
+      "offered_minus_raw_pp": 4.310344827586207
+    }
+  ],
+  "mean_gain_pp": {
+    "fixed_minus_raw_pp": 2.2988505747126435,
+    "fixed_minus_clipped_pp": 2.155172413793103,
+    "offered_minus_raw_pp": 2.2988505747126435
+  },
+  "input_sha256": {
+    "reports": "fe665e590a6d0186013674feb5fb18735fbd61e6df1401e8970bcf80fae4e7e8",
+    "design": "2827edc9fe41bf1343407ec9c0b137ed871ae28461915aef288d04d7b0d92995",
+    "options": "4da983000380c79941bcdbd782b3b1c1e10e0813108d9736cdb3d52c861a3e79",
+    "labels": "f1b77135bb8571f0fb95f5a30c72ef487c7d55e0d20f313c3a65760e4788a998"
+  }
+}

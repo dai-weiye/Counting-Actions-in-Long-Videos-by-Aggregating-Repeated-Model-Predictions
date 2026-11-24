@@ -1,0 +1,42 @@
+{
+  "dates_utc": [
+    "2026-11-23",
+    "2026-11-24"
+  ],
+  "served_model_counts": {
+    "deepseek-flash": 240
+  },
+  "distinct_nonempty_service_fingerprints": 1,
+  "response_http_status": {
+    "200": 240
+  },
+  "finish_reason": {
+    "stop": 197,
+    "length": 43
+  },
+  "protocol_sha256": "79e4759d12deb353e78379d1838f6444507b2e79acd54692a436be29499e416c",
+  "input_annotations_sha256": "b2fffd0cddbdf0ed54592db33e46979b20082bb00ee3db828e820f5080d87262",
+  "frame_inputs": 120,
+  "source_audit": {
+    "videos_hashed_before_cache_retirement": 60,
+    "available_files_rehashed_at_export": 22,
+    "video_hashes_matched_to_frozen_frame_inputs": 60,
+    "requests_matched_to_frozen_payload_hashes": 240
+  },
+  "overlap_check": {
+    "development_videos": 206,
+    "test_videos": 60,
+    "shared_record_ids": 0,
+    "shared_filenames": 0,
+    "shared_file_sha256": 0
+  },
+  "acquisition_history": {
+    "previous_terminal_model_responses": 160,
+    "preserved_previous_raw_records": 160,
+    "newly_closed_slots": 80,
+    "http_and_transport_attempts_all_phases": {
+      "200": 240,
+      "402": 5
+    }
+  }
+}

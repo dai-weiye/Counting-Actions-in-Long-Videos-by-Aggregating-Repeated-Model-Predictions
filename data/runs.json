@@ -1,0 +1,132 @@
+{
+  "full206_uniform": {
+    "n": 206,
+    "n_frames": 128,
+    "model": "deepseek-flash",
+    "backend": "api",
+    "thinking": "enabled",
+    "select": "uniform",
+    "pool": 128,
+    "task": "4_count"
+  },
+  "full206_random": {
+    "n": 206,
+    "n_frames": 128,
+    "model": "deepseek-flash",
+    "backend": "api",
+    "thinking": "enabled",
+    "select": "random",
+    "pool": 128,
+    "task": "4_count"
+  },
+  "full206_recency": {
+    "n": 206,
+    "n_frames": 128,
+    "model": "deepseek-flash",
+    "backend": "api",
+    "thinking": "enabled",
+    "select": "recency",
+    "pool": 128,
+    "task": "4_count"
+  },
+  "full206_change": {
+    "n": 206,
+    "n_frames": 128,
+    "model": "deepseek-flash",
+    "backend": "api",
+    "thinking": "enabled",
+    "select": "change",
+    "pool": 256,
+    "task": "4_count"
+  },
+  "full206_uniform_nothink": {
+    "n": 206,
+    "n_frames": 128,
+    "model": "deepseek-flash",
+    "backend": "api",
+    "thinking": "disabled",
+    "select": "uniform",
+    "pool": 128,
+    "task": "4_count"
+  },
+  "full206_f64": {
+    "n": 148,
+    "n_frames": 64,
+    "model": "deepseek-flash",
+    "backend": "api",
+    "thinking": "enabled",
+    "select": "uniform",
+    "pool": 64,
+    "task": "4_count"
+  },
+  "full206_f32": {
+    "n": 138,
+    "n_frames": 32,
+    "model": "deepseek-flash",
+    "backend": "api",
+    "thinking": "enabled",
+    "select": "uniform",
+    "pool": 32,
+    "task": "4_count"
+  },
+  "seed1": {
+    "n": 200,
+    "n_frames": 128,
+    "model": "deepseek-flash",
+    "backend": "api",
+    "thinking": "enabled",
+    "select": "random",
+    "pool": 256,
+    "task": "4_count"
+  },
+  "seed2": {
+    "n": 200,
+    "n_frames": 128,
+    "model": "deepseek-flash",
+    "backend": "api",
+    "thinking": "enabled",
+    "select": "random",
+    "pool": 256,
+    "task": "4_count"
+  },
+  "seed3": {
+    "n": 200,
+    "n_frames": 128,
+    "model": "deepseek-flash",
+    "backend": "api",
+    "thinking": "enabled",
+    "select": "random",
+    "pool": 256,
+    "task": "4_count"
+  },
+  "seed4": {
+    "n": 200,
+    "n_frames": 128,
+    "model": "deepseek-flash",
+    "backend": "api",
+    "thinking": "enabled",
+    "select": "random",
+    "pool": 256,
+    "task": "4_count"
+  },
+  "order_think": {
+    "n": 237,
+    "thinking": "enabled",
+    "task": "5_order"
+  },
+  "order_nothink": {
+    "n": 237,
+    "thinking": "disabled",
+    "task": "5_order"
+  },
+  "needle_think": {
+    "n": 329,
+    "thinking": "enabled",
+    "task": "2_needle"
+  },
+  "needle_nothink": {
+    "n": 329,
+    "thinking": "disabled",
+    "task": "2_needle"
+  }
+}

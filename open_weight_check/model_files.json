@@ -1,0 +1,52 @@
+{
+  "repo_id": "mlx-community/Qwen2-VL-2B-Instruct-4bit",
+  "revision": "01af461cdb9574acc09084a0ef94e216e142b085",
+  "files": {
+    "added_tokens.json": {
+      "bytes": 392,
+      "git_blob_sha1": "caa81304af029feb531f1fe80a096dc539ea0153"
+    },
+    "chat_template.json": {
+      "bytes": 1049,
+      "git_blob_sha1": "13303be6f396b038cf397b34a8096819d403836b"
+    },
+    "config.json": {
+      "bytes": 1408,
+      "git_blob_sha1": "2c55e43b343cfd774e7a72e4407813aae80d9292"
+    },
+    "merges.txt": {
+      "bytes": 1671853,
+      "git_blob_sha1": "31349551d90c7606f325fe0f11bbb8bd5fa0d7c7"
+    },
+    "model.safetensors": {
+      "bytes": 1245868907,
+      "git_blob_sha1": "ec81791678d4ab54f77eef183d069c6b72ee1cc2",
+      "sha256": "3534d3dcfaacd0cd00e935469bc34b6d692b2ba0749c5d9ee422f3f2175cf992"
+    },
+    "model.safetensors.index.json": {
+      "bytes": 107605,
+      "git_blob_sha1": "0aa857ff7d8c7934412e16babf3debe92e7c1d02"
+    },
+    "preprocessor_config.json": {
+      "bytes": 499,
+      "git_blob_sha1": "e8abd23b3ec5289bb1b8e809e1f4b1ac6a30b909"
+    },
+    "special_tokens_map.json": {
+      "bytes": 613,
+      "git_blob_sha1": "ac23c0aaa2434523c494330aeb79c58395378103"
+    },
+    "tokenizer.json": {
+      "bytes": 11420371,
+      "git_blob_sha1": "dcd1dbdf2779322e66d2786614dcf743892a0857",
+      "sha256": "091aa7594dc2fcfbfa06b9e3c22a5f0562ac14f30375c13af7309407a0e67b8a"
+    },
+    "tokenizer_config.json": {
+      "bytes": 4297,
+      "git_blob_sha1": "6287abf187a01a1ad531bdc60bacfe972d51254e"
+    },
+    "vocab.json": {
+      "bytes": 2776833,
+      "git_blob_sha1": "4783fe10ac3adce15ac8f358ef5462739852c569"
+    }
+  }
+}

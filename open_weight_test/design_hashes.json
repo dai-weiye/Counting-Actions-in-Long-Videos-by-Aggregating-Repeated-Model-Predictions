@@ -1,0 +1,9 @@
+{
+  "protocol.md": "2a160465aec84153d0afb8fb2a947f54f8cb60a9ea13a5a66dae59a5075d12ca",
+  "cohort.json": "26be8ddd6e9311ee7e1045556fcafc92654b7ce1c0a06bca5d0aafd575904c27",
+  "collect.py": "4c71e0060ac28bfad933f1b1b0816bb74dc7b6812668ec130614e3408edacedf",
+  "development_collector": "f1b064611e5d309b42b36dd879cb965770288faedebf16e4b1df1f0914aeb418",
+  "duration_predictions.json": "d0d1a9dcf966364cc4d09780ff95f3a0ac189e0f50f027352470f749dbe943bd",
+  "score.py": "039fd3e1d0bc0779a51e86a72695967631d59f247a9fb5b6e34c8edfa5276ed8",
+  "freeze.py": "afb5bc118dc1da33f0b7eb550af3437bec67eada89726069b4eb5f3345c1455f"
+}

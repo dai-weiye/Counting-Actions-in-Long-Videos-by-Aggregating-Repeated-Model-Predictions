@@ -1,0 +1,6 @@
+# Study locks and SHA256SUMS verify the exact recorded bytes.
+* -text
+*.pdf binary
+*.pptx binary
+*.png binary
+*.ttf binary

@@ -1,0 +1,743 @@
+{
+  "source_sha256": {
+    "data/action_count.csv": "f1b77135bb8571f0fb95f5a30c72ef487c7d55e0d20f313c3a65760e4788a998",
+    "fourth_call/options.json": "4da983000380c79941bcdbd782b3b1c1e10e0813108d9736cdb3d52c861a3e79",
+    "external_eval/items.json": "1d05905c14e424bd42d7609770ed1e8865618dd12fca19fe6fbb73bffb769596",
+    "external_eval/calls.jsonl": "a992f769bb8cfd663ab05103d7951cbe210646a014f02c4b6aa8090fbe433e0d",
+    "open_weight_test/cohort.json": "26be8ddd6e9311ee7e1045556fcafc92654b7ce1c0a06bca5d0aafd575904c27",
+    "open_weight_test/predictions.jsonl": "fa021c084223a5ea8d99f8f612fe654c6808e8c3f95edcdae0c2537d799fb64c",
+    "open_weight_check/predictions.jsonl": "ac7c182a60f983712d4196d52e15b1b351e41500dd6abd95f6ea41cebc3ff55f",
+    "open_weight_test/official_counts.json": "09c60b43a51168850e678e7ac510a49f7fabf8f634e22925c325e765d3e868bb",
+    "exact_stopping/replay.py": "34a7df321d9fe65857f6cf433905b81887c37a74feaf0f479c1bf89edf94df0d",
+    "exact_stopping/items.csv": "acf11bd8124c788986be8e8f8b79e48cf2e71932a696ca53ade0ed547662e3d7",
+    "exact_stopping/items_offered.csv": "21f93db41116b1ec84bd7a71663fa9a9409de281be8ee9b053a99748a88c48d6",
+    "exact_stopping/results.json": "2cd928e20e5c01bb88680cf945f91ebcb8e0841954aa7310fe0f904b7096acdd",
+    "exact_stopping/results_offered.json": "1a7d74c9340ad4c022ebdd895845c4520abf0b534f109640350c2d2420049ec0"
+  },
+  "by_domain": {
+    "fixed": {
+      "development_all": {
+        "fixed_1": {
+          "n": 206,
+          "calls": 206,
+          "valid_reports_used": 206,
+          "matches_four": 173,
+          "differs_from_four": 33,
+          "answered": 206,
+          "correct": 148,
+          "accuracy_pct_all_items": 71.84466019417475
+        },
+        "fixed_2": {
+          "n": 206,
+          "calls": 412,
+          "valid_reports_used": 412,
+          "matches_four": 186,
+          "differs_from_four": 20,
+          "answered": 206,
+          "correct": 144,
+          "accuracy_pct_all_items": 69.90291262135922
+        },
+        "fixed_3": {
+          "n": 206,
+          "calls": 618,
+          "valid_reports_used": 618,
+          "matches_four": 189,
+          "differs_from_four": 17,
+          "answered": 206,
+          "correct": 157,
+          "accuracy_pct_all_items": 76.2135922330097
+        },
+        "fixed_4": {
+          "n": 206,
+          "calls": 824,
+          "valid_reports_used": 824,
+          "matches_four": 206,
+          "differs_from_four": 0,
+          "answered": 206,
+          "correct": 152,
+          "accuracy_pct_all_items": 73.7864077669903
+        },
+        "three_agree": {
+          "n": 206,
+          "calls": 698,
+          "valid_reports_used": 698,
+          "matches_four": 206,
+          "differs_from_four": 0,
+          "answered": 206,
+          "correct": 152,
+          "accuracy_pct_all_items": 73.7864077669903
+        },
+        "two_agree": {
+          "n": 206,
+          "calls": 524,
+          "valid_reports_used": 524,
+          "matches_four": 202,
+          "differs_from_four": 4,
+          "answered": 206,
+          "correct": 152,
+          "accuracy_pct_all_items": 73.7864077669903
+        },
+        "exact": {
+          "n": 206,
+          "calls": 595,
+          "valid_reports_used": 595,
+          "matches_four": 206,
+          "differs_from_four": 0,
+          "answered": 206,
+          "correct": 152,
+          "accuracy_pct_all_items": 73.7864077669903
+        }
+      },
+      "development_held_out": {
+        "fixed_1": {
+          "n": 103,
+          "calls": 103,
+          "valid_reports_used": 103,
+          "matches_four": 83,
+          "differs_from_four": 20,
+          "answered": 103,
+          "correct": 79,
+          "accuracy_pct_all_items": 76.69902912621359
+        },
+        "fixed_2": {
+          "n": 103,
+          "calls": 206,
+          "valid_reports_used": 206,
+          "matches_four": 90,
+          "differs_from_four": 13,
+          "answered": 103,
+          "correct": 75,
+          "accuracy_pct_all_items": 72.81553398058253
+        },
+        "fixed_3": {
+          "n": 103,
+          "calls": 309,
+          "valid_reports_used": 309,
+          "matches_four": 95,
+          "differs_from_four": 8,
+          "answered": 103,
+          "correct": 81,
+          "accuracy_pct_all_items": 78.64077669902913
+        },
+        "fixed_4": {
+          "n": 103,
+          "calls": 412,
+          "valid_reports_used": 412,
+          "matches_four": 103,
+          "differs_from_four": 0,
+          "answered": 103,
+          "correct": 79,
+          "accuracy_pct_all_items": 76.69902912621359
+        },
+        "three_agree": {
+          "n": 103,
+          "calls": 345,
+          "valid_reports_used": 345,
+          "matches_four": 103,
+          "differs_from_four": 0,
+          "answered": 103,
+          "correct": 79,
+          "accuracy_pct_all_items": 76.69902912621359
+        },
+        "two_agree": {
+          "n": 103,
+          "calls": 256,
+          "valid_reports_used": 256,
+          "matches_four": 100,
+          "differs_from_four": 3,
+          "answered": 103,
+          "correct": 80,
+          "accuracy_pct_all_items": 77.66990291262135
+        },
+        "exact": {
+          "n": 103,
+          "calls": 292,
+          "valid_reports_used": 292,
+          "matches_four": 103,
+          "differs_from_four": 0,
+          "answered": 103,
+          "correct": 79,
+          "accuracy_pct_all_items": 76.69902912621359
+        }
+      },
+      "official_test_all": {
+        "fixed_1": {
+          "n": 60,
+          "calls": 60,
+          "valid_reports_used": 51,
+          "matches_four": 47,
+          "differs_from_four": 13,
+          "answered": 51,
+          "correct": 29,
+          "accuracy_pct_all_items": 48.333333333333336
+        },
+        "fixed_2": {
+          "n": 60,
+          "calls": 120,
+          "valid_reports_used": 101,
+          "matches_four": 53,
+          "differs_from_four": 7,
+          "answered": 55,
+          "correct": 31,
+          "accuracy_pct_all_items": 51.666666666666664
+        },
+        "fixed_3": {
+          "n": 60,
+          "calls": 180,
+          "valid_reports_used": 151,
+          "matches_four": 56,
+          "differs_from_four": 4,
+          "answered": 59,
+          "correct": 31,
+          "accuracy_pct_all_items": 51.666666666666664
+        },
+        "fixed_4": {
+          "n": 60,
+          "calls": 240,
+          "valid_reports_used": 197,
+          "matches_four": 60,
+          "differs_from_four": 0,
+          "answered": 59,
+          "correct": 33,
+          "accuracy_pct_all_items": 55.0
+        },
+        "three_agree": {
+          "n": 60,
+          "calls": 208,
+          "valid_reports_used": 171,
+          "matches_four": 60,
+          "differs_from_four": 0,
+          "answered": 59,
+          "correct": 33,
+          "accuracy_pct_all_items": 55.0
+        },
+        "two_agree": {
+          "n": 60,
+          "calls": 162,
+          "valid_reports_used": 132,
+          "matches_four": 60,
+          "differs_from_four": 0,
+          "answered": 59,
+          "correct": 33,
+          "accuracy_pct_all_items": 55.0
+        },
+        "exact": {
+          "n": 60,
+          "calls": 180,
+          "valid_reports_used": 146,
+          "matches_four": 60,
+          "differs_from_four": 0,
+          "answered": 59,
+          "correct": 33,
+          "accuracy_pct_all_items": 55.0
+        }
+      },
+      "open_weight_official_test_all": {
+        "fixed_1": {
+          "n": 60,
+          "calls": 60,
+          "valid_reports_used": 60,
+          "matches_four": 60,
+          "differs_from_four": 0,
+          "answered": 60,
+          "correct": 16,
+          "accuracy_pct_all_items": 26.666666666666668
+        },
+        "fixed_2": {
+          "n": 60,
+          "calls": 120,
+          "valid_reports_used": 120,
+          "matches_four": 60,
+          "differs_from_four": 0,
+          "answered": 60,
+          "correct": 16,
+          "accuracy_pct_all_items": 26.666666666666668
+        },
+        "fixed_3": {
+          "n": 60,
+          "calls": 180,
+          "valid_reports_used": 180,
+          "matches_four": 60,
+          "differs_from_four": 0,
+          "answered": 60,
+          "correct": 16,
+          "accuracy_pct_all_items": 26.666666666666668
+        },
+        "fixed_4": {
+          "n": 60,
+          "calls": 240,
+          "valid_reports_used": 239,
+          "matches_four": 60,
+          "differs_from_four": 0,
+          "answered": 60,
+          "correct": 16,
+          "accuracy_pct_all_items": 26.666666666666668
+        },
+        "three_agree": {
+          "n": 60,
+          "calls": 180,
+          "valid_reports_used": 180,
+          "matches_four": 60,
+          "differs_from_four": 0,
+          "answered": 60,
+          "correct": 16,
+          "accuracy_pct_all_items": 26.666666666666668
+        },
+        "two_agree": {
+          "n": 60,
+          "calls": 120,
+          "valid_reports_used": 120,
+          "matches_four": 60,
+          "differs_from_four": 0,
+          "answered": 60,
+          "correct": 16,
+          "accuracy_pct_all_items": 26.666666666666668
+        },
+        "exact": {
+          "n": 60,
+          "calls": 175,
+          "valid_reports_used": 175,
+          "matches_four": 60,
+          "differs_from_four": 0,
+          "answered": 60,
+          "correct": 16,
+          "accuracy_pct_all_items": 26.666666666666668
+        }
+      },
+      "open_weight_held_out": {
+        "fixed_1": {
+          "n": 32,
+          "calls": 32,
+          "valid_reports_used": 32,
+          "matches_four": 32,
+          "differs_from_four": 0,
+          "answered": 32,
+          "correct": 12,
+          "accuracy_pct_all_items": 37.5
+        },
+        "fixed_2": {
+          "n": 32,
+          "calls": 64,
+          "valid_reports_used": 64,
+          "matches_four": 32,
+          "differs_from_four": 0,
+          "answered": 32,
+          "correct": 12,
+          "accuracy_pct_all_items": 37.5
+        },
+        "fixed_3": {
+          "n": 32,
+          "calls": 96,
+          "valid_reports_used": 96,
+          "matches_four": 32,
+          "differs_from_four": 0,
+          "answered": 32,
+          "correct": 12,
+          "accuracy_pct_all_items": 37.5
+        },
+        "fixed_4": {
+          "n": 32,
+          "calls": 128,
+          "valid_reports_used": 128,
+          "matches_four": 32,
+          "differs_from_four": 0,
+          "answered": 32,
+          "correct": 12,
+          "accuracy_pct_all_items": 37.5
+        },
+        "three_agree": {
+          "n": 32,
+          "calls": 96,
+          "valid_reports_used": 96,
+          "matches_four": 32,
+          "differs_from_four": 0,
+          "answered": 32,
+          "correct": 12,
+          "accuracy_pct_all_items": 37.5
+        },
+        "two_agree": {
+          "n": 32,
+          "calls": 64,
+          "valid_reports_used": 64,
+          "matches_four": 32,
+          "differs_from_four": 0,
+          "answered": 32,
+          "correct": 12,
+          "accuracy_pct_all_items": 37.5
+        },
+        "exact": {
+          "n": 32,
+          "calls": 89,
+          "valid_reports_used": 89,
+          "matches_four": 32,
+          "differs_from_four": 0,
+          "answered": 32,
+          "correct": 12,
+          "accuracy_pct_all_items": 37.5
+        }
+      }
+    },
+    "offered": {
+      "development_all": {
+        "fixed_1": {
+          "n": 206,
+          "calls": 206,
+          "valid_reports_used": 206,
+          "matches_four": 170,
+          "differs_from_four": 36,
+          "answered": 206,
+          "correct": 148,
+          "accuracy_pct_all_items": 71.84466019417475
+        },
+        "fixed_2": {
+          "n": 206,
+          "calls": 412,
+          "valid_reports_used": 412,
+          "matches_four": 184,
+          "differs_from_four": 22,
+          "answered": 206,
+          "correct": 142,
+          "accuracy_pct_all_items": 68.93203883495146
+        },
+        "fixed_3": {
+          "n": 206,
+          "calls": 618,
+          "valid_reports_used": 618,
+          "matches_four": 186,
+          "differs_from_four": 20,
+          "answered": 206,
+          "correct": 157,
+          "accuracy_pct_all_items": 76.2135922330097
+        },
+        "fixed_4": {
+          "n": 206,
+          "calls": 824,
+          "valid_reports_used": 824,
+          "matches_four": 206,
+          "differs_from_four": 0,
+          "answered": 206,
+          "correct": 151,
+          "accuracy_pct_all_items": 73.30097087378641
+        },
+        "three_agree": {
+          "n": 206,
+          "calls": 698,
+          "valid_reports_used": 698,
+          "matches_four": 206,
+          "differs_from_four": 0,
+          "answered": 206,
+          "correct": 151,
+          "accuracy_pct_all_items": 73.30097087378641
+        },
+        "two_agree": {
+          "n": 206,
+          "calls": 524,
+          "valid_reports_used": 524,
+          "matches_four": 202,
+          "differs_from_four": 4,
+          "answered": 206,
+          "correct": 151,
+          "accuracy_pct_all_items": 73.30097087378641
+        },
+        "exact": {
+          "n": 206,
+          "calls": 632,
+          "valid_reports_used": 632,
+          "matches_four": 206,
+          "differs_from_four": 0,
+          "answered": 206,
+          "correct": 151,
+          "accuracy_pct_all_items": 73.30097087378641
+        }
+      },
+      "development_held_out": {
+        "fixed_1": {
+          "n": 103,
+          "calls": 103,
+          "valid_reports_used": 103,
+          "matches_four": 82,
+          "differs_from_four": 21,
+          "answered": 103,
+          "correct": 79,
+          "accuracy_pct_all_items": 76.69902912621359
+        },
+        "fixed_2": {
+          "n": 103,
+          "calls": 206,
+          "valid_reports_used": 206,
+          "matches_four": 89,
+          "differs_from_four": 14,
+          "answered": 103,
+          "correct": 73,
+          "accuracy_pct_all_items": 70.87378640776699
+        },
+        "fixed_3": {
+          "n": 103,
+          "calls": 309,
+          "valid_reports_used": 309,
+          "matches_four": 94,
+          "differs_from_four": 9,
+          "answered": 103,
+          "correct": 81,
+          "accuracy_pct_all_items": 78.64077669902913
+        },
+        "fixed_4": {
+          "n": 103,
+          "calls": 412,
+          "valid_reports_used": 412,
+          "matches_four": 103,
+          "differs_from_four": 0,
+          "answered": 103,
+          "correct": 78,
+          "accuracy_pct_all_items": 75.72815533980582
+        },
+        "three_agree": {
+          "n": 103,
+          "calls": 345,
+          "valid_reports_used": 345,
+          "matches_four": 103,
+          "differs_from_four": 0,
+          "answered": 103,
+          "correct": 78,
+          "accuracy_pct_all_items": 75.72815533980582
+        },
+        "two_agree": {
+          "n": 103,
+          "calls": 256,
+          "valid_reports_used": 256,
+          "matches_four": 100,
+          "differs_from_four": 3,
+          "answered": 103,
+          "correct": 79,
+          "accuracy_pct_all_items": 76.69902912621359
+        },
+        "exact": {
+          "n": 103,
+          "calls": 315,
+          "valid_reports_used": 315,
+          "matches_four": 103,
+          "differs_from_four": 0,
+          "answered": 103,
+          "correct": 78,
+          "accuracy_pct_all_items": 75.72815533980582
+        }
+      },
+      "official_test_all": {
+        "fixed_1": {
+          "n": 60,
+          "calls": 60,
+          "valid_reports_used": 51,
+          "matches_four": 47,
+          "differs_from_four": 13,
+          "answered": 51,
+          "correct": 33,
+          "accuracy_pct_all_items": 55.0
+        },
+        "fixed_2": {
+          "n": 60,
+          "calls": 120,
+          "valid_reports_used": 101,
+          "matches_four": 53,
+          "differs_from_four": 7,
+          "answered": 55,
+          "correct": 36,
+          "accuracy_pct_all_items": 60.0
+        },
+        "fixed_3": {
+          "n": 60,
+          "calls": 180,
+          "valid_reports_used": 151,
+          "matches_four": 56,
+          "differs_from_four": 4,
+          "answered": 59,
+          "correct": 36,
+          "accuracy_pct_all_items": 60.0
+        },
+        "fixed_4": {
+          "n": 60,
+          "calls": 240,
+          "valid_reports_used": 197,
+          "matches_four": 60,
+          "differs_from_four": 0,
+          "answered": 59,
+          "correct": 38,
+          "accuracy_pct_all_items": 63.333333333333336
+        },
+        "three_agree": {
+          "n": 60,
+          "calls": 208,
+          "valid_reports_used": 171,
+          "matches_four": 60,
+          "differs_from_four": 0,
+          "answered": 59,
+          "correct": 38,
+          "accuracy_pct_all_items": 63.333333333333336
+        },
+        "two_agree": {
+          "n": 60,
+          "calls": 162,
+          "valid_reports_used": 132,
+          "matches_four": 60,
+          "differs_from_four": 0,
+          "answered": 59,
+          "correct": 38,
+          "accuracy_pct_all_items": 63.333333333333336
+        },
+        "exact": {
+          "n": 60,
+          "calls": 191,
+          "valid_reports_used": 157,
+          "matches_four": 60,
+          "differs_from_four": 0,
+          "answered": 59,
+          "correct": 38,
+          "accuracy_pct_all_items": 63.333333333333336
+        }
+      },
+      "open_weight_official_test_all": {
+        "fixed_1": {
+          "n": 60,
+          "calls": 60,
+          "valid_reports_used": 60,
+          "matches_four": 60,
+          "differs_from_four": 0,
+          "answered": 60,
+          "correct": 15,
+          "accuracy_pct_all_items": 25.0
+        },
+        "fixed_2": {
+          "n": 60,
+          "calls": 120,
+          "valid_reports_used": 120,
+          "matches_four": 60,
+          "differs_from_four": 0,
+          "answered": 60,
+          "correct": 15,
+          "accuracy_pct_all_items": 25.0
+        },
+        "fixed_3": {
+          "n": 60,
+          "calls": 180,
+          "valid_reports_used": 180,
+          "matches_four": 60,
+          "differs_from_four": 0,
+          "answered": 60,
+          "correct": 15,
+          "accuracy_pct_all_items": 25.0
+        },
+        "fixed_4": {
+          "n": 60,
+          "calls": 240,
+          "valid_reports_used": 239,
+          "matches_four": 60,
+          "differs_from_four": 0,
+          "answered": 60,
+          "correct": 15,
+          "accuracy_pct_all_items": 25.0
+        },
+        "three_agree": {
+          "n": 60,
+          "calls": 180,
+          "valid_reports_used": 180,
+          "matches_four": 60,
+          "differs_from_four": 0,
+          "answered": 60,
+          "correct": 15,
+          "accuracy_pct_all_items": 25.0
+        },
+        "two_agree": {
+          "n": 60,
+          "calls": 120,
+          "valid_reports_used": 120,
+          "matches_four": 60,
+          "differs_from_four": 0,
+          "answered": 60,
+          "correct": 15,
+          "accuracy_pct_all_items": 25.0
+        },
+        "exact": {
+          "n": 60,
+          "calls": 180,
+          "valid_reports_used": 180,
+          "matches_four": 60,
+          "differs_from_four": 0,
+          "answered": 60,
+          "correct": 15,
+          "accuracy_pct_all_items": 25.0
+        }
+      },
+      "open_weight_held_out": {
+        "fixed_1": {
+          "n": 32,
+          "calls": 32,
+          "valid_reports_used": 32,
+          "matches_four": 32,
+          "differs_from_four": 0,
+          "answered": 32,
+          "correct": 12,
+          "accuracy_pct_all_items": 37.5
+        },
+        "fixed_2": {
+          "n": 32,
+          "calls": 64,
+          "valid_reports_used": 64,
+          "matches_four": 32,
+          "differs_from_four": 0,
+          "answered": 32,
+          "correct": 12,
+          "accuracy_pct_all_items": 37.5
+        },
+        "fixed_3": {
+          "n": 32,
+          "calls": 96,
+          "valid_reports_used": 96,
+          "matches_four": 32,
+          "differs_from_four": 0,
+          "answered": 32,
+          "correct": 12,
+          "accuracy_pct_all_items": 37.5
+        },
+        "fixed_4": {
+          "n": 32,
+          "calls": 128,
+          "valid_reports_used": 128,
+          "matches_four": 32,
+          "differs_from_four": 0,
+          "answered": 32,
+          "correct": 12,
+          "accuracy_pct_all_items": 37.5
+        },
+        "three_agree": {
+          "n": 32,
+          "calls": 96,
+          "valid_reports_used": 96,
+          "matches_four": 32,
+          "differs_from_four": 0,
+          "answered": 32,
+          "correct": 12,
+          "accuracy_pct_all_items": 37.5
+        },
+        "two_agree": {
+          "n": 32,
+          "calls": 64,
+          "valid_reports_used": 64,
+          "matches_four": 32,
+          "differs_from_four": 0,
+          "answered": 32,
+          "correct": 12,
+          "accuracy_pct_all_items": 37.5
+        },
+        "exact": {
+          "n": 32,
+          "calls": 94,
+          "valid_reports_used": 94,
+          "matches_four": 32,
+          "differs_from_four": 0,
+          "answered": 32,
+          "correct": 12,
+          "accuracy_pct_all_items": 37.5
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "model_repo": "mlx-community/Qwen2-VL-2B-Instruct-4bit",
+  "revision": "01af461cdb9574acc09084a0ef94e216e142b085",
+  "device": "Apple M4",
+  "machine": "arm64",
+  "os_version": "26.2",
+  "gpu_architecture": "applegpu_g16g",
+  "python": "3.13.12",
+  "packages": {
+    "numpy": "2.5.3",
+    "Pillow": "12.3.0",
+    "mlx": "0.32.3",
+    "mlx-vlm": "0.7.4",
+    "transformers": "5.18.0",
+    "opencv-python": "5.0.0.93",
+    "requests": "2.34.2"
+  },
+  "temperature": 0.0,
+  "mlx_seed_per_call": 0,
+  "max_new_tokens": 8,
+  "visual_budget": 16,
+  "max_image_side": 224,
+  "model_dir_manifest_sha256": "677d5b0e008004a50f61f973122a3c61525f06f2fa96fa2febd35cd12f1c9dbb",
+  "acquisition_dates_utc": [
+    "2026-11-23"
+  ],
+  "generations_completed": 128
+}

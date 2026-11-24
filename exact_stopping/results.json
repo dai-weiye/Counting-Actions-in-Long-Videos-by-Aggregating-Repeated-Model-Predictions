@@ -1,0 +1,123 @@
+{
+  "development_all": {
+    "n": 206,
+    "planned_calls": 824,
+    "calls_to_fixed_decision": 595,
+    "calls_saved": 229,
+    "saved_pct": 27.79126213592233,
+    "equal_decisions": 206,
+    "stopped_after_calls": {
+      "1": 0,
+      "2": 63,
+      "3": 103,
+      "4": 40
+    },
+    "four_usable": 206,
+    "unanswered_after_four": 0
+  },
+  "development_held_out": {
+    "n": 103,
+    "planned_calls": 412,
+    "calls_to_fixed_decision": 292,
+    "calls_saved": 120,
+    "saved_pct": 29.12621359223301,
+    "equal_decisions": 103,
+    "stopped_after_calls": {
+      "1": 0,
+      "2": 37,
+      "3": 46,
+      "4": 20
+    },
+    "four_usable": 103,
+    "unanswered_after_four": 0
+  },
+  "official_test_all": {
+    "n": 60,
+    "planned_calls": 240,
+    "calls_to_fixed_decision": 180,
+    "calls_saved": 60,
+    "saved_pct": 25.0,
+    "equal_decisions": 60,
+    "stopped_after_calls": {
+      "1": 0,
+      "2": 13,
+      "3": 34,
+      "4": 13
+    },
+    "four_usable": 34,
+    "unanswered_after_four": 1
+  },
+  "official_test_four_usable": {
+    "n": 34,
+    "planned_calls": 136,
+    "calls_to_fixed_decision": 92,
+    "calls_saved": 44,
+    "saved_pct": 32.35294117647059,
+    "equal_decisions": 34,
+    "stopped_after_calls": {
+      "1": 0,
+      "2": 12,
+      "3": 20,
+      "4": 2
+    },
+    "four_usable": 34,
+    "unanswered_after_four": 0
+  },
+  "open_weight_official_test_all": {
+    "n": 60,
+    "planned_calls": 240,
+    "calls_to_fixed_decision": 175,
+    "calls_saved": 65,
+    "saved_pct": 27.083333333333332,
+    "equal_decisions": 60,
+    "stopped_after_calls": {
+      "1": 0,
+      "2": 5,
+      "3": 55,
+      "4": 0
+    },
+    "four_usable": 59,
+    "unanswered_after_four": 0
+  },
+  "open_weight_official_test_four_usable": {
+    "n": 59,
+    "planned_calls": 236,
+    "calls_to_fixed_decision": 172,
+    "calls_saved": 64,
+    "saved_pct": 27.11864406779661,
+    "equal_decisions": 59,
+    "stopped_after_calls": {
+      "1": 0,
+      "2": 5,
+      "3": 54,
+      "4": 0
+    },
+    "four_usable": 59,
+    "unanswered_after_four": 0
+  },
+  "open_weight_held_out": {
+    "n": 32,
+    "planned_calls": 128,
+    "calls_to_fixed_decision": 89,
+    "calls_saved": 39,
+    "saved_pct": 30.46875,
+    "equal_decisions": 32,
+    "stopped_after_calls": {
+      "1": 0,
+      "2": 7,
+      "3": 25,
+      "4": 0
+    },
+    "four_usable": 32,
+    "unanswered_after_four": 0
+  },
+  "input_sha256": {
+    "action_count.csv": "f1b77135bb8571f0fb95f5a30c72ef487c7d55e0d20f313c3a65760e4788a998",
+    "options.json": "4da983000380c79941bcdbd782b3b1c1e10e0813108d9736cdb3d52c861a3e79",
+    "official_test_cohort": "1d05905c14e424bd42d7609770ed1e8865618dd12fca19fe6fbb73bffb769596",
+    "official_test_calls": "a992f769bb8cfd663ab05103d7951cbe210646a014f02c4b6aa8090fbe433e0d",
+    "open_weight_official_test_cohort": "26be8ddd6e9311ee7e1045556fcafc92654b7ce1c0a06bca5d0aafd575904c27",
+    "open_weight_official_test_calls": "fa021c084223a5ea8d99f8f612fe654c6808e8c3f95edcdae0c2537d799fb64c",
+    "open_weight_held_out_calls": "ac7c182a60f983712d4196d52e15b1b351e41500dd6abd95f6ea41cebc3ff55f"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "score": "Negative twice the absolute deviation, plus one for an exact match. A blank contributes zero.",
+  "candidate_domain": "Offered numeric options, with the smaller numeric count winning a tie.",
+  "single_report_margin": "For distinct h and c, the minimum over listed responses and a blank is -2*abs(h-c)-1, attained at response c.",
+  "option_sets": 42,
+  "ordered_distinct_pairs_across_sets": 630,
+  "pair_by_legal_report_checks_including_blank": 3570,
+  "four_slot_sequences": 38682,
+  "nonempty_prefixes": 46900,
+  "prefixes_including_empty": 46942,
+  "earliest_stops_compared": 38682,
+  "differences_from_general_rule_or_completion_oracle": 0,
+  "input_sha256": {
+    "fourth_call/options.json": "4da983000380c79941bcdbd782b3b1c1e10e0813108d9736cdb3d52c861a3e79",
+    "external_eval/items.json": "1d05905c14e424bd42d7609770ed1e8865618dd12fca19fe6fbb73bffb769596",
+    "exact_stopping/replay.py": "34a7df321d9fe65857f6cf433905b81887c37a74feaf0f479c1bf89edf94df0d"
+  }
+}

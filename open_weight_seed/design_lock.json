@@ -1,0 +1,12 @@
+{
+  "recorded_utc": "2026-11-23T22:01:09.674497+00:00",
+  "slots": 768,
+  "study": "16-frame Qwen open-weight seed groups",
+  "sha256": {
+    "protocol.md": "c5fd1d95f95d91ad7260749620219736459c2e46f8ce0034fa2b9c4b97e26b5f",
+    "design.json": "2827edc9fe41bf1343407ec9c0b137ed871ae28461915aef288d04d7b0d92995",
+    "collect_groups.py": "8c32faf444b7b0436d67c2ee964aa16713cf51c7ae8a85099e7db487d2794702",
+    "score_groups.py": "79f1636cd9834e71d9544f3b612143d66b12e64897427c6db720aa907f1e64fe",
+    "derive_design.py": "63e45c80a5d8da4bb4eb2438a68cd06ed135266aed380119c8ea5a4633ba75b1"
+  }
+}

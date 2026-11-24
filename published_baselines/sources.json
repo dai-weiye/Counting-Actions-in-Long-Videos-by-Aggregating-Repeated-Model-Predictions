@@ -1,0 +1,252 @@
+{
+  "benchmark": "MLVU Action Count",
+  "metric": "Author-reported task accuracy (%)",
+  "page_numbering": "PDF pages are one-based. A supplement has its own page sequence.",
+  "benchmark_publication": {
+    "title": "MLVU: Benchmarking Multi-task Long Video Understanding",
+    "venue": "CVPR",
+    "year": 2025,
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_MLVU_Benchmarking_Multi-task_Long_Video_Understanding_CVPR_2025_paper.html",
+    "split_source": "https://openaccess.thecvf.com/content/CVPR2025/supplemental/Zhou_MLVU_Benchmarking_Multi-task_CVPR_2025_supplemental.pdf#page=1",
+    "split_locator": "Supplement, Table 1 (PDF page 1) gives the task sizes. Section B on the same page gives the number of answer choices.",
+    "splits": {
+      "dev": {
+        "benchmark_questions": 206,
+        "answer_choices": 4
+      },
+      "test": {
+        "benchmark_questions": 60,
+        "answer_choices": 6
+      }
+    }
+  },
+  "result_tables": {
+    "vgent_a1": {
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/91b75715a2ae8f2542b78be31941eac3-Paper-Conference.pdf#page=21",
+      "pdf_page": 21,
+      "table": "Table 6",
+      "metric_column": "Count"
+    },
+    "hpp_b1": {
+      "url": "https://aclanthology.org/2026.emnlp-main.2377.pdf#page=19",
+      "pdf_page": 19,
+      "printed_page": 54011,
+      "table": "Table 8",
+      "metric_column": "AC"
+    },
+    "dig_supplement": {
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Li_Divide_then_Ground_CVPR_2026_supplemental.pdf#page=6",
+      "pdf_page": 6,
+      "table": "Supplement, Table 4, left panel (32B)",
+      "metric_column": "AC"
+    },
+    "videozoomer": {
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/221b2665260a582f7eb821b9871e8001-Paper-Conference.pdf#page=7",
+      "pdf_page": 7,
+      "table": "Table 2",
+      "metric_column": "AC"
+    },
+    "mlvu_dev": {
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/supplemental/Zhou_MLVU_Benchmarking_Multi-task_CVPR_2025_supplemental.pdf#page=2",
+      "pdf_page": 2,
+      "table": "Supplement, Table 2",
+      "metric_column": "AC"
+    },
+    "mlvu_test": {
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Zhou_MLVU_Benchmarking_Multi-task_Long_Video_Understanding_CVPR_2025_paper.pdf#page=7",
+      "pdf_page": 7,
+      "printed_page": 13697,
+      "table": "Main paper, Table 2",
+      "metric_column": "AC"
+    }
+  },
+  "baselines": [
+    {
+      "id": "vgent",
+      "method": "Vgent",
+      "backbone": "Qwen2-VL-7B",
+      "publication": {
+        "title": "Vgent: Graph-based Retrieval-Reasoning-Augmented Generation For Long Video Understanding",
+        "authors": [
+          "Xiaoqian Shen",
+          "Wenxuan Zhang",
+          "Jun Chen",
+          "Mohamed Elhoseiny"
+        ],
+        "venue": "NeurIPS",
+        "year": 2025,
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/91b75715a2ae8f2542b78be31941eac3-Abstract-Conference.html"
+      },
+      "input_protocol": "The offline graph uses video sampled at 1 fps in clips of 64 frames. Retrieval retains at most five clips. MLVU runs also use Whisper-large speech transcripts.",
+      "protocol_source": "https://proceedings.neurips.cc/paper_files/paper/2025/file/91b75715a2ae8f2542b78be31941eac3-Paper-Conference.pdf#page=6",
+      "split_evidence": "The authors' evaluation README links to the public MLVU/MVLU development data. Table 6 reports its seven multiple-choice tasks and the dev benchmark reference scores.",
+      "split_source": "https://raw.githubusercontent.com/xiaoqian-shen/Vgent/main/README.md",
+      "results": {
+        "dev": {
+          "accuracy_pct": 60.2,
+          "table_id": "vgent_a1",
+          "row": "Qwen2-VL + Vgent (Ours), 7B"
+        }
+      }
+    },
+    {
+      "id": "hpp",
+      "method": "HPP",
+      "backbone": "GPT-5-mini (planner), Qwen3-VL-2B (perception)",
+      "publication": {
+        "title": "HPP: Hierarchical Programmatic Probing for Long Video Understanding by Decoupling Perception and Reasoning",
+        "authors": [
+          "Awais Rauf",
+          "Ahmed Hasssan",
+          "Gregory Slabaugh"
+        ],
+        "venue": "EMNLP",
+        "year": 2026,
+        "url": "https://aclanthology.org/2026.emnlp-main.2377/"
+      },
+      "input_protocol": "A planning model requests frames or clips from a segmented video and calls the perception model on demand. The number of frames depends on the query.",
+      "protocol_source": "https://aclanthology.org/2026.emnlp-main.2377.pdf",
+      "split_evidence": "The authors identify the 69.3 M-Avg run with these two models as MLVU dev in their results README. Table 8 gives the AC value for that same HPP row. Historical rows in Table 8 are not used here.",
+      "split_source": "https://github.com/AwaisRauf/hpp#results",
+      "results": {
+        "dev": {
+          "accuracy_pct": 53.9,
+          "table_id": "hpp_b1",
+          "row": "Ours HPP (2B)"
+        }
+      }
+    },
+    {
+      "id": "dig",
+      "method": "DIG",
+      "backbone": "Qwen2.5-VL-32B",
+      "publication": {
+        "title": "Divide, then Ground: Adapting Frame Selection to Query Types for Long-Form Video Understanding",
+        "authors": [
+          "Jialuo Li",
+          "Bin Li",
+          "Jiahao Li",
+          "Yan Lu"
+        ],
+        "venue": "CVPR",
+        "year": 2026,
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_Divide_then_Ground_Adapting_Frame_Selection_to_Query_Types_for_CVPR_2026_paper.html"
+      },
+      "input_protocol": "192 selected frames. DIG chooses the frame selection procedure according to the query type.",
+      "protocol_source": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Li_Divide_then_Ground_CVPR_2026_supplemental.pdf#page=6",
+      "split_evidence": "The supplement states that only multiple-choice questions from the development set are evaluated.",
+      "split_source": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Li_Divide_then_Ground_CVPR_2026_supplemental.pdf#page=1",
+      "results": {
+        "dev": {
+          "accuracy_pct": 53.9,
+          "table_id": "dig_supplement",
+          "row": "DIG (Ours), 192 frames, left panel"
+        }
+      },
+      "other_reported_configurations": [
+        {
+          "backbone": "Qwen2.5-VL-32B",
+          "selected_frames": 128,
+          "dev_accuracy_pct": 52.4,
+          "table_id": "dig_supplement",
+          "row": "DIG (Ours), 128 frames, left panel"
+        }
+      ]
+    },
+    {
+      "id": "videozoomer",
+      "method": "VideoZoomer",
+      "backbone": "Qwen2.5-VL-7B",
+      "publication": {
+        "title": "VideoZoomer: Reinforcement-Learned Temporal Focusing for Long Video Reasoning",
+        "authors": [
+          "Yang Ding",
+          "Xin Lai",
+          "Yizhen Zhang",
+          "Wei Li",
+          "Ruihang Chu",
+          "Yujiu Yang"
+        ],
+        "venue": "ICLR",
+        "year": 2026,
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/221b2665260a582f7eb821b9871e8001-Abstract-Conference.html"
+      },
+      "input_protocol": "At most 64 overview frames followed by up to four adaptive zoom requests of at most 16 frames each, for a 128-frame cap.",
+      "protocol_source": "https://proceedings.iclr.cc/paper_files/paper/2026/file/221b2665260a582f7eb821b9871e8001-Paper-Conference.pdf#page=7",
+      "split_evidence": "Table 2 groups rows by the explicit Dev and Test split labels.",
+      "split_source": "https://proceedings.iclr.cc/paper_files/paper/2026/file/221b2665260a582f7eb821b9871e8001-Paper-Conference.pdf#page=7",
+      "results": {
+        "dev": {
+          "accuracy_pct": 50.5,
+          "table_id": "videozoomer",
+          "row": "Dev, VideoZoomer"
+        },
+        "test": {
+          "accuracy_pct": 28.3,
+          "table_id": "videozoomer",
+          "row": "Test, VideoZoomer"
+        }
+      }
+    },
+    {
+      "id": "gpt4o",
+      "method": "GPT-4o",
+      "backbone": "GPT-4o",
+      "input_protocol": "MLVU benchmark evaluation at 0.5 fps.",
+      "protocol_source": "https://openaccess.thecvf.com/content/CVPR2025/supplemental/Zhou_MLVU_Benchmarking_Multi-task_CVPR_2025_supplemental.pdf#page=2",
+      "split_evidence": "The benchmark authors label Table 2 in the supplement as dev and Table 2 in the main paper as test. In the test row, 46.2 is Action Order and 35.0 is Action Count.",
+      "split_source": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_MLVU_Benchmarking_Multi-task_Long_Video_Understanding_CVPR_2025_paper.html",
+      "result_publication": "benchmark_publication",
+      "results": {
+        "dev": {
+          "accuracy_pct": 46.3,
+          "table_id": "mlvu_dev",
+          "row": "GPT-4o"
+        },
+        "test": {
+          "accuracy_pct": 35.0,
+          "table_id": "mlvu_test",
+          "row": "GPT-4o"
+        }
+      }
+    },
+    {
+      "id": "videoxl",
+      "method": "Video-XL",
+      "backbone": "Video-XL-7B",
+      "publication": {
+        "title": "Video-XL: Extra-Long Vision Language Model for Hour-Scale Video Understanding",
+        "authors": [
+          "Yan Shu",
+          "Zheng Liu",
+          "Peitian Zhang",
+          "Minghao Qin",
+          "Junjie Zhou",
+          "Zhengyang Liang",
+          "Tiejun Huang",
+          "Bo Zhao"
+        ],
+        "venue": "CVPR",
+        "year": 2025,
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Shu_Video-XL_Extra-Long_Vision_Language_Model_for_Hour-Scale_Video_Understanding_CVPR_2025_paper.html"
+      },
+      "input_protocol": "MLVU benchmark evaluation with 256 uniformly sampled frames.",
+      "protocol_source": "https://openaccess.thecvf.com/content/CVPR2025/supplemental/Zhou_MLVU_Benchmarking_Multi-task_CVPR_2025_supplemental.pdf#page=2",
+      "split_evidence": "The benchmark authors report this model in the dev supplement table and the test main-paper table.",
+      "split_source": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_MLVU_Benchmarking_Multi-task_Long_Video_Understanding_CVPR_2025_paper.html",
+      "result_publication": "benchmark_publication",
+      "results": {
+        "dev": {
+          "accuracy_pct": 40.3,
+          "table_id": "mlvu_dev",
+          "row": "Video-XL"
+        },
+        "test": {
+          "accuracy_pct": 31.7,
+          "table_id": "mlvu_test",
+          "row": "Video-XL"
+        }
+      }
+    }
+  ]
+}

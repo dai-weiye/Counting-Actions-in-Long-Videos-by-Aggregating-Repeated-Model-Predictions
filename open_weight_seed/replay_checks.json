@@ -1,0 +1,22 @@
+[
+  {
+    "item_id": "count_121",
+    "group": 1,
+    "call": 1,
+    "rgb_sha256_matched": true,
+    "prompt_sha256_matched": true,
+    "same_final_text": true,
+    "same_finish_reason": true,
+    "same_generated_tokens": true
+  },
+  {
+    "item_id": "count_228",
+    "group": 6,
+    "call": 4,
+    "rgb_sha256_matched": true,
+    "prompt_sha256_matched": true,
+    "same_final_text": true,
+    "same_finish_reason": true,
+    "same_generated_tokens": true
+  }
+]

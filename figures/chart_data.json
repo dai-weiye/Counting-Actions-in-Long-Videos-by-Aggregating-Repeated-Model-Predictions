@@ -1,0 +1,55 @@
+{
+  "sampling_control": {
+    "size_pt": [
+      246,
+      104
+    ],
+    "source": "reproduce.py:figure_data.sampling_control",
+    "accuracy_pct": {
+      "primary_best": 73.5,
+      "primary_aggregate": 78.5,
+      "random_best": 64.0,
+      "random_aggregate": 67.0
+    },
+    "matched_development_questions": 200,
+    "markers": {
+      "open": "best single call",
+      "filled": "four-report estimate"
+    }
+  },
+  "count_errors": {
+    "size_pt": [
+      246,
+      116
+    ],
+    "source": "held_out_errors/results.json:figure_counts",
+    "counts": {
+      "questions": 103,
+      "changed_correctness": 13,
+      "residual_errors": 21,
+      "corrected": 8,
+      "introduced": 5,
+      "full_under": 16,
+      "full_over": 5
+    },
+    "unit": "held-out development questions"
+  },
+  "palette": {
+    "ink": "#28313C",
+    "axis": "#A5B1BC",
+    "comparison": "#478BCA",
+    "reference_or_correction": "#6E5BA3",
+    "introduced_error": "#EB2124",
+    "background": "#FFFFFF"
+  },
+  "fonts": {
+    "native_powerpoint": "Arial",
+    "exported_pdf": "embedded Arial",
+    "portable_svg": "embedded Arimo (Arial-compatible)"
+  },
+  "input_sha256": {
+    "data/action_count.csv": "f1b77135bb8571f0fb95f5a30c72ef487c7d55e0d20f313c3a65760e4788a998",
+    "reproduce.py": "c9f04f90cf7c509aca74e68b90ea013b490564397550daf5e5447e4418e3a363",
+    "held_out_errors/results.json": "e98aa18c65e99e5b173d7bdac9190d6f43908abe7e6cb99d54517ab5c1c804cc"
+  }
+}

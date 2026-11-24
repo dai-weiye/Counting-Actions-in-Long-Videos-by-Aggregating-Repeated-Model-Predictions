@@ -1,0 +1,7 @@
+id,method,citation_key,backbone,input_protocol,dev_action_count_pct,test_action_count_pct
+vgent,Vgent,vgent,Qwen2-VL-7B,1 fps graph construction; Whisper-large ASR; at most 5 retained 64-frame clips,60.2,
+hpp,HPP,hpp,GPT-5-mini planner and Qwen3-VL-2B perception,Adaptive hierarchical programmatic probing,53.9,
+dig,DIG,dig,Qwen2.5-VL-32B,192 selected frames,53.9,
+videozoomer,VideoZoomer,videozoomer,Qwen2.5-VL-7B,At most 64 overview frames plus at most 4 rounds of 16 frames,50.5,28.3
+gpt4o,GPT-4o,mlvu,GPT-4o,0.5 fps,46.3,35.0
+videoxl,Video-XL,videoxl,Video-XL-7B,256 uniformly sampled frames,40.3,31.7

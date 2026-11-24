@@ -1,0 +1,70 @@
+{
+  "planned": 32,
+  "terminal_slots": 128,
+  "status_by_slot": {
+    "U1": {
+      "ok": 32
+    },
+    "U2": {
+      "ok": 32
+    },
+    "U3": {
+      "ok": 32
+    },
+    "C4": {
+      "ok": 32
+    }
+  },
+  "heldout_complete_pairs": 32,
+  "same_input_all_three_usable": 32,
+  "same_input_disagreements_among_usable": 0,
+  "fourth_and_first_usable": 32,
+  "fourth_vs_first_disagreements": 5,
+  "four_report_output_equals_range_matched_u1": 32,
+  "primary_vs_raw_u1": {
+    "n": 32,
+    "aggregate_correct": 12,
+    "reference_correct": 12,
+    "aggregate_mae": 1.28125,
+    "reference_mae": 1.34375,
+    "wins": 0,
+    "losses": 0,
+    "delta_pp": 0.0,
+    "paired_95pct_delta_pp": [
+      0.0,
+      0.0
+    ],
+    "exact_mcnemar_p": 1.0
+  },
+  "sensitivity_vs_range_matched_u1": {
+    "n": 32,
+    "aggregate_correct": 12,
+    "reference_correct": 12,
+    "aggregate_mae": 1.28125,
+    "reference_mae": 1.28125,
+    "wins": 0,
+    "losses": 0,
+    "delta_pp": 0.0,
+    "paired_95pct_delta_pp": [
+      0.0,
+      0.0
+    ],
+    "exact_mcnemar_p": 1.0
+  },
+  "available_over_planned": {
+    "all_four": 32,
+    "raw_u1": 32,
+    "range_matched_u1": 32,
+    "any_valid_fallback": 32
+  },
+  "correct_yield_over_planned": {
+    "all_four": 12,
+    "raw_u1": 12,
+    "range_matched_u1": 12,
+    "any_valid_fallback": 12
+  },
+  "input_hashes": {
+    "predictions": "ac7c182a60f983712d4196d52e15b1b351e41500dd6abd95f6ea41cebc3ff55f",
+    "labels": "f1b77135bb8571f0fb95f5a30c72ef487c7d55e0d20f313c3a65760e4788a998"
+  }
+}

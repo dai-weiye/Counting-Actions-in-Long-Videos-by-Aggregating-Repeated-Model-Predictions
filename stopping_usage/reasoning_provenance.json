@@ -1,0 +1,15 @@
+{
+  "response_field": "usage.completion_tokens_details.reasoning_tokens",
+  "questions": 60,
+  "slots": 240,
+  "total_reasoning_tokens": 899398,
+  "ledger_sha256": "98fb60887b25a154026af56d2d9660ac5d0697be5ecefd0d6fe1a286ee339cc2",
+  "original_usage_sha256": "4308a51263e075e48f88e4dbba0a292f2c240d291f33a38057a8f5f16806ffe6",
+  "planned_slots_sha256": "81843ab635b4f8a83419731261e5e9009d71468587840920cc7a5615b0af5423",
+  "source_receipt_sha256_by_slot": {
+    "U1": "8e8fc2042152c4dbd82f2db466ca0d6415286ab2c11d06624675e2be3ca8a9cf",
+    "U2": "80921d71507bcadbdab370e9d1539ab49bd0bbdfaf30e5135bd9650a2e7c83e1",
+    "U3": "d74e785436b74acb1b63e35d8795495f6b368ac00dfc9e43f5b91e6ab2a283a7",
+    "C4": "5ba294df0abdf3675c40a6aae36973298be019c089d2d3f081864665069aab61"
+  }
+}

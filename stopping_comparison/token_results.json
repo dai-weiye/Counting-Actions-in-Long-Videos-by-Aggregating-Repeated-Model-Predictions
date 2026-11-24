@@ -1,0 +1,132 @@
+{
+  "questions": 60,
+  "observed_api_slots": 240,
+  "full_four_slot_usage": {
+    "prompt_tokens": 7702808,
+    "completion_tokens": 899792,
+    "total_tokens": 8602600
+  },
+  "input_sha256": {
+    "planned_slots": "81843ab635b4f8a83419731261e5e9009d71468587840920cc7a5615b0af5423",
+    "usage_ledger": "4308a51263e075e48f88e4dbba0a292f2c240d291f33a38057a8f5f16806ffe6",
+    "policy_items": "7c7410c18af60200993ad7d0e6a86518affb27b6c691d1567e924808af923ca8"
+  },
+  "replayed_usage_by_domain": {
+    "fixed": {
+      "fixed_1": {
+        "calls": 60,
+        "prompt_tokens": 1925702,
+        "completion_tokens": 216816,
+        "total_tokens": 2142518,
+        "tokens_saved_vs_four": 6460082,
+        "saved_pct_vs_four": 75.09452956083045
+      },
+      "fixed_2": {
+        "calls": 120,
+        "prompt_tokens": 3851404,
+        "completion_tokens": 427913,
+        "total_tokens": 4279317,
+        "tokens_saved_vs_four": 4323283,
+        "saved_pct_vs_four": 50.255539023086044
+      },
+      "fixed_3": {
+        "calls": 180,
+        "prompt_tokens": 5777106,
+        "completion_tokens": 659288,
+        "total_tokens": 6436394,
+        "tokens_saved_vs_four": 2166206,
+        "saved_pct_vs_four": 25.18082905168205
+      },
+      "fixed_4": {
+        "calls": 240,
+        "prompt_tokens": 7702808,
+        "completion_tokens": 899792,
+        "total_tokens": 8602600,
+        "tokens_saved_vs_four": 0,
+        "saved_pct_vs_four": 0.0
+      },
+      "three_agree": {
+        "calls": 208,
+        "prompt_tokens": 6675776,
+        "completion_tokens": 786845,
+        "total_tokens": 7462621,
+        "tokens_saved_vs_four": 1139979,
+        "saved_pct_vs_four": 13.251563480808128
+      },
+      "two_agree": {
+        "calls": 162,
+        "prompt_tokens": 5199398,
+        "completion_tokens": 609987,
+        "total_tokens": 5809385,
+        "tokens_saved_vs_four": 2793215,
+        "saved_pct_vs_four": 32.469427847394975
+      },
+      "exact": {
+        "calls": 180,
+        "prompt_tokens": 5777113,
+        "completion_tokens": 697346,
+        "total_tokens": 6474459,
+        "tokens_saved_vs_four": 2128141,
+        "saved_pct_vs_four": 24.73834654639295
+      }
+    },
+    "offered": {
+      "fixed_1": {
+        "calls": 60,
+        "prompt_tokens": 1925702,
+        "completion_tokens": 216816,
+        "total_tokens": 2142518,
+        "tokens_saved_vs_four": 6460082,
+        "saved_pct_vs_four": 75.09452956083045
+      },
+      "fixed_2": {
+        "calls": 120,
+        "prompt_tokens": 3851404,
+        "completion_tokens": 427913,
+        "total_tokens": 4279317,
+        "tokens_saved_vs_four": 4323283,
+        "saved_pct_vs_four": 50.255539023086044
+      },
+      "fixed_3": {
+        "calls": 180,
+        "prompt_tokens": 5777106,
+        "completion_tokens": 659288,
+        "total_tokens": 6436394,
+        "tokens_saved_vs_four": 2166206,
+        "saved_pct_vs_four": 25.18082905168205
+      },
+      "fixed_4": {
+        "calls": 240,
+        "prompt_tokens": 7702808,
+        "completion_tokens": 899792,
+        "total_tokens": 8602600,
+        "tokens_saved_vs_four": 0,
+        "saved_pct_vs_four": 0.0
+      },
+      "three_agree": {
+        "calls": 208,
+        "prompt_tokens": 6675776,
+        "completion_tokens": 786845,
+        "total_tokens": 7462621,
+        "tokens_saved_vs_four": 1139979,
+        "saved_pct_vs_four": 13.251563480808128
+      },
+      "two_agree": {
+        "calls": 162,
+        "prompt_tokens": 5199398,
+        "completion_tokens": 609987,
+        "total_tokens": 5809385,
+        "tokens_saved_vs_four": 2793215,
+        "saved_pct_vs_four": 32.469427847394975
+      },
+      "exact": {
+        "calls": 191,
+        "prompt_tokens": 6130153,
+        "completion_tokens": 715607,
+        "total_tokens": 6845760,
+        "tokens_saved_vs_four": 1756840,
+        "saved_pct_vs_four": 20.422197940157627
+      }
+    }
+  }
+}

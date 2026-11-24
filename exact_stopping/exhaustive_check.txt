@@ -1,0 +1,3 @@
+fixed option sets, legal full sequences, legal nonempty prefixes: 42 38682 46900
+offered option sets, legal full sequences, legal nonempty prefixes: 42 38682 46900
+Callable and bounded iterator confirmed the earliest safe stop for every full sequence.
